@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .h1 {
+        @apply font-atkinson text-h1 font-bold tracking-[-2px]
+    }
+
+    .h2 {
+        @apply font-atkinson text-h2 font-bold tracking-[-2px]
+    }
+
+    .h3 {
+        @apply font-atkinson text-h3 font-bold tracking-[-2px]
+    }
+
+    .h4 {
+        @apply font-atkinson text-h4 font-bold tracking-[-2px]
+    }
+
+    .h5 {
+        @apply font-atkinson text-h5 tracking-[-2px]
+    }
+
+    .h6 {
+        @apply font-atkinson text-h6 font-bold tracking-[-0.65px] leading-[32px]
+    }
+
+    .p1 {
+        @apply text-p1 font-atkinson leading-[32px]
+    }
+
+    .p2 {
+        @apply text-p2 font-atkinson leading-[24px]
+    }
+
+    .p3 {
+        @apply text-p3 font-atkinson leading-[16px]
+    }
+
+    .text-gradient-50 {
+        @apply flex justify-center items-center  bg-gradient-to-r from-accent-purple-400 from-10% via-accent-blue-300 to-accent-cali-400 text-transparent inline-block bg-clip-text
+    }
+
+    .text-gradient-100 {
+        @apply flex justify-center items-center bg-gradient-to-br from-accent-blue-200 from-10% via-accent-blue-300 to-accent-blue-400 text-transparent inline-block bg-clip-text
+    }
+
+    .bg-gradient-50 {
+        @apply flex justify-center items-center  bg-gradient-to-r from-accent-purple-400 from-10% via-accent-blue-300 to-accent-cali-400
+    }
+
+    .bg-gradient-100 {
+        @apply   bg-gradient-to-br from-accent-blue-100 from-10% via-accent-blue-300 to-accent-blue-400
+    }
+}
