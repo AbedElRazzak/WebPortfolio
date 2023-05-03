@@ -1,17 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import { getPrefix } from './helpfullScripts'
 import '../dist/output.css'
 import './input.css'
 
 function App() {
-
-  const prefix = getPrefix()
  
 
   return (
    <div className='h-screen w-full'>
-    <div className="h-[110%] w-full bg-contain bg-no-repeat bg-cover bg-hero-main-dev">
+    <div className="h-[110%] w-full bg-contain bg-no-repeat bg-cover bg-[url('assets/hero-main.png')]">
       {console.log("a")}
       <div className='h-auto w-full px-4'>
         <div className='flex flex-col mt-16 justify-center items-center'>
@@ -37,8 +34,8 @@ function App() {
       </div>
 
       <div className='h-auto w-full flex flex-row justify-evenly content-evenly items-center space-x-2 absolute top-[50%]'>
-        <div className="h-32 w-44 bg-contain bg-no-repeat bg-ui-mobile-figma-dev"></div>
-        <div className="h-44 w-28 bg-contain bg-no-repeat bg-ui-mobile-react-dev"></div>
+        <div className="h-32 w-44 bg-contain bg-no-repeat bg-[url('assets/ui-mobile-figma.png')]"></div>
+        <div className="h-44 w-28 bg-contain bg-no-repeat bg-[url('assets/ui-mobile-react.png')]"></div>
       </div>
 
       <div className='h-auto w-full flex justify-center absolute bottom-5'>
