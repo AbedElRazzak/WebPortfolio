@@ -78,9 +78,9 @@ export default {
 
     },
     backgroundImage: {
-      'hero-main-dev': "url('/hero-main.png')",
+      'hero-main-dev': "url('assets/hero-main.png')",
       'hero-main-prod': "url('https://abedelrazzak.github.io/webportfolio/assets/hero-main.png')",
-      'ui-mobile-figma-dev': "url('public/assets/ui-mobile-figma.png')",
+      'ui-mobile-figma-dev': "url('assets/ui-mobile-figma.png')",
       'ui-mobile-figma-prod': "url('https://abedelrazzak.github.io/webportfolio/assets/ui-mobile-figma.png')",
       'ui-mobile-react-dev': "url('assets/ui-mobile-react.png')",
       'ui-mobile-react-prod': "url('https://abedelrazzak.github.io/webportfolio/assets/ui-mobile-react.png')",
