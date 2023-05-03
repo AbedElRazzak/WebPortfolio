@@ -724,18 +724,6 @@ video {
   background-color: rgb(246 251 255 / var(--tw-bg-opacity));
 }
 
-.bg-hero-main-desktop {
-  background-image: url('assets/hero-main-desktop.png');
-}
-
-.bg-ui-mobile-figma {
-  background-image: url('assets/ui-mobile-figma.png');
-}
-
-.bg-ui-mobile-react {
-  background-image: url('assets/ui-mobile-react.png');
-}
-
 .bg-contain {
   background-size: contain;
 }
