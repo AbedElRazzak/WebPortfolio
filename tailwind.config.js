@@ -84,6 +84,10 @@ export default {
       'ui-mobile-figma-prod': "url('https://abedelrazzak.github.io/WebPortfolio/assets/ui-mobile-figma.png')",
       'ui-mobile-react-dev': "url('assets/ui-mobile-react.png')",
       'ui-mobile-react-prod': "url('https://abedelrazzak.github.io/WebPortfolio/assets/ui-mobile-react.png')",
+      'burger-logo-dev': "url('assets/burger-logo.png')",
+      'burger-logo-prod': "https://abedelrazzak.github.io/WebPortfolio/assets/burger-logo.png",
+      'navbar-logo-dev': "url('assets/navbar-logo.svg')",
+      'navbar-logo-prod': "https://abedelrazzak.github.io/WebPortfolio/assets/navbar-logo.svg"
     }
     },
   },
