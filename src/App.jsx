@@ -7,7 +7,7 @@ function App() {
  
 
   return (
-    <div className='h-screen w-full  flex flex-col space-y-2 px-2 bg-hero-main-dev'>
+    <div className='h-screen w-full  flex flex-col space-y-2 px-2 bg-hero-main-prod'>
 
       <div className='h-auto '>
         <div className='h-[40%] w-full px-4 flex flex-col'>
