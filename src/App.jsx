@@ -23,33 +23,43 @@ function App() {
       </div>
 
 
-    <div className="h-[110%] w-full bg-contain bg-no-repeat bg-bottom  bg-hero-main-prod pt-6">
-
-      <div className='h-[40%] w-full px-4 flex flex-col'>
-        <div className='flex flex-col mt-16 justify-center items-center'>
-          <div className='h-full'>
-            <div className='h4 h-auto'>Abed</div>
+      <div className='flex flex-col mt-16 justify-center items-center space-y-[-0.7rem]'>
+          <div className='h-full w-full'>
+            <div className='h2 h-full text-center'>Abed</div>
           </div>
-          <div className='h-[5px] w-[35%] bg-gradient-50'></div>
-            <div className='h4'>El Razzak Chreim</div>
-            <div className='h-[5px] w-[90%] bg-gradient-50'></div>
-        </div>
-
-        <div className='pt-12'>
-          <div className='h-full w-full p2 text-primary-300'>
-            <div className='text-center'>Full stack web developer & a UI/UX Designer, </div>
-            <div className='flex flex-row justify-center'>
-              <div className='text-center pr-2'>currently an intern at </div>
-              <div className='text-center p2 text-gradient-100'>Smartech</div>
-            </div>
-            <div className='text-center'>as a web developer.</div>
-          </div>
+          <div className='h-[3px] w-[35%] bg-gradient-50'></div>
+            <div className='h-full w-full h2  text-center'>El Razzak</div>
+            <div className='h-[3px] w-[70%] bg-gradient-50'></div>
+            <div className='h-full w-full h2 text-center'>Shreim</div>
+            <div className='h-[3px] w-[45%] bg-gradient-50'></div>
         </div>
 
 
 
-        <div className='h-auto w-full flex justify-center py-10'>
-            <div className=' h-auto w-auto flex flex-col space-y-2'> 
+
+    <div className="h-auto w-full bg-cover bg-no-repeat  bg-hero-main-prod pt-6">
+
+      <div className='h-auto w-full px-2 flex flex-col '>
+
+
+      <div className='pt-4'>
+          <div className='h-full w-full p1 text-primary-300'>
+            <div className='text-center w-full'>Full stack web developer & UI/UX</div>
+
+              <div className='flex flex-row justify-center'>
+                <div className='text-center pr-2'>Designer, currently an intern at </div>
+                <div className='text-center p1 text-gradient-100'>Smartech</div>
+              </div>
+              <div className='text-center'>as a web developer.</div>
+
+          </div>
+        </div>
+
+
+
+
+        <div className='h-auto w-full flex justify-center py-10 px-2'>
+            <div className=' h-auto w-full flex flex-col space-y-2'> 
           
               <div className="inline-block h-12 cursor-pointer rounded-xl border-2 border-primary-400 bg-primary-400 transition delay-[35ms] ease-in hover:border-secondary-300 hover:bg-secondary-300 hover:drop-shadow-2xl">
                 <div className="flex h-full w-full flex-col items-center justify-center rounded-xl transition ease-in hover:bg-secondary-300">
@@ -69,9 +79,10 @@ function App() {
 
 
 
-        <div className='h-full w-full flex flex-row justify-evenly content-evenly items-center space-x-2 pt-4'>
-          <div className="h-28 w-36 bg-contain bg-no-repeat bg-ui-mobile-figma-prod"></div>
-          <div className="h-48 w-36 bg-contain bg-no-repeat bg-ui-mobile-react-prod"></div>
+        <div className='h-full w-full flex flex-row justify-evenly content-evenly items-center space-x-0 pt-4'>
+          <div className="h-56 w-36 bg-contain bg-no-repeat bg-ui-mobile-react-prod"></div>
+          <div className="h-40 w-36 bg-cover bg-no-repeat bg-ui-mobile-figma-prod"></div>
+
         </div>
 
 

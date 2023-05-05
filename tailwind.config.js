@@ -58,6 +58,7 @@ export default {
         }
     },
     fontSize: {
+      h1xl: "82.6px",
       h1: "68.8px",
       h2: "47.8px",
       h3: "39.8px",

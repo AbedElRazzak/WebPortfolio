@@ -8,7 +8,7 @@
     }
 
     .h2 {
-        @apply font-atkinson text-h2 font-bold tracking-[-2px]
+        @apply font-atkinson text-h2 font-bold tracking-[-2.7px]
     }
 
     .h3 {
