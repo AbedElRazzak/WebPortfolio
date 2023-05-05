@@ -82,7 +82,6 @@ function App() {
         <div className='h-full w-full flex flex-row justify-evenly content-evenly items-center space-x-0 pt-4'>
           <div className="h-56 w-36 bg-contain bg-no-repeat bg-ui-mobile-react-prod"></div>
           <div className="h-40 w-36 bg-cover bg-no-repeat bg-ui-mobile-figma-prod"></div>
-
         </div>
 
 
@@ -109,7 +108,59 @@ function App() {
 
 
     </div>
-    <div className='h-full w-full bg-primary-300'>a</div>
+    <div className='h-auto w-full'>
+
+      <div className='h-auto w-full h3 text-gradient-50 pt-20'>Projects</div>
+      <div className='flex flex-col space-y-[-0.5rem]'>
+        <div className='h-auto w-full text-center h6'>The best way to learn</div>
+        <div className='h-auto w-full text-center h6'>is to build</div>
+      </div>
+
+      <div className='flex flex-col h-auto w-full mt-12 items-center px-7'>
+
+        <div className='h-96 w-80 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl mt-4 flex flex-col'>
+          <div className='h-auto w-auto p-3 rounded-3xl'>
+            <div className='bg-demo-pic-1 h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
+          </div>
+          <div className='h-full w-full flex flex-col pl-3'>
+            <div className='h5 text-primary-400'>Path finding visualizer</div>
+            <div className='p1 text-primary-200'>html css react javascript</div>
+          </div>
+        </div>
+
+        <div className='h-96 w-80 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl mt-4 flex flex-col'>
+          <div className='h-auto w-auto p-3 rounded-3xl'>
+            <div className='bg-demo-pic-2 h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
+          </div>
+          <div className='h-full w-full flex flex-col pl-3'>
+            <div className='h5 text-primary-400'>Wordvid</div>
+            <div className='p1 text-primary-200'>react tailwind python</div>
+          </div>
+        </div>
+
+        <div className='h-96 w-80 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl mt-4 flex flex-col'>
+          <div className='h-auto w-auto p-3 rounded-3xl'>
+            <div className='bg-demo-pic-1 h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
+          </div>
+          <div className='h-full w-full flex flex-col pl-3'>
+            <div className='h5 text-primary-400'>ElonDrifts</div>
+            <div className='p1 text-primary-200'>React ThreeJS Blender</div>
+          </div>
+        </div>
+
+        <div className=" h-12 w-full my-4 cursor-pointer rounded-xl bg-secondary-200 transition delay-[35ms] ease-in hover:bg-gradient-100 drop-shadow-xl hover:drop-shadow-3xl">
+          <div className="flex h-full w-auto flex-col items-center justify-center rounded-xl transition ease-in hover:bg-gradient-100">
+            <div className="p1 hover:h6 flex h-12 w-auto items-center justify-center rounded-2xl px-8 py-2 text-primary-400 transition ease-in hover:text-secondary-100 rounded-xl">See more</div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
     
   </div> 
   )

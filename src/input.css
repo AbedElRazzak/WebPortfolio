@@ -40,7 +40,7 @@
     }
 
     .text-gradient-50 {
-        @apply flex justify-center items-center  bg-gradient-to-r from-accent-purple-400 from-10% via-accent-blue-300 to-accent-cali-400 text-transparent inline-block bg-clip-text
+        @apply flex justify-center items-center  bg-gradient-to-r from-accent-purple-400 from-25% via-accent-blue-300 to-accent-cali-400 to-70% text-transparent inline-block bg-clip-text
     }
 
     .text-gradient-100 {

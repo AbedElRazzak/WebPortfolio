@@ -49,12 +49,15 @@ export default {
           },
         },
         shades: {
-          50: "FFFFFF",
-          100: "000000"
+          50: "#FFFFFF",
+          100: "#000000"
         },
         gradient: {
           50: "",
           100: ""
+        },
+        border: {
+          50: "#99DFFF"
         }
     },
     fontSize: {
@@ -76,6 +79,7 @@ export default {
       'xl': '0px 0px 16px #BCCFD9',
       '2xl': '0px 0px 16px #BFD2E1',
       '3xl': '0px 0px 16px #66CFFF',
+      '4xl': '0px 0px 50px #E0B3DA',
 
     },
     backgroundImage: {
@@ -88,7 +92,9 @@ export default {
       'burger-logo-dev': "url('assets/burger-logo.png')",
       'burger-logo-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/burger-logo.png')",
       'navbar-logo-dev': "url('assets/navbar-logo.svg')",
-      'navbar-logo-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/navbar-logo.svg')"
+      'navbar-logo-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/navbar-logo.svg')",
+      'demo-pic-1': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/demo-pic.jpg')",
+      'demo-pic-2': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/demo-pic-2.jpg')"
     }
     },
   },
