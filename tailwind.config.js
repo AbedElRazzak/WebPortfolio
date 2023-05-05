@@ -79,15 +79,15 @@ export default {
     },
     backgroundImage: {
       'hero-main-dev': "url('assets/hero-main.png')",
-      'hero-main-prod': "url('https://abedelrazzak.github.io/WebPortfolio/assets/hero-main.png')",
+      'hero-main-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/hero-main-desktop.png')",
       'ui-mobile-figma-dev': "url('assets/ui-mobile-figma.png')",
-      'ui-mobile-figma-prod': "url('https://abedelrazzak.github.io/WebPortfolio/assets/ui-mobile-figma.png')",
+      'ui-mobile-figma-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/ui-mobile-figma.png')",
       'ui-mobile-react-dev': "url('assets/ui-mobile-react.png')",
-      'ui-mobile-react-prod': "url('https://abedelrazzak.github.io/WebPortfolio/assets/ui-mobile-react.png')",
+      'ui-mobile-react-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/ui-mobile-react.png')",
       'burger-logo-dev': "url('assets/burger-logo.png')",
-      'burger-logo-prod': "https://abedelrazzak.github.io/WebPortfolio/assets/burger-logo.png",
+      'burger-logo-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/burger-logo.png')",
       'navbar-logo-dev': "url('assets/navbar-logo.svg')",
-      'navbar-logo-prod': "https://abedelrazzak.github.io/WebPortfolio/assets/navbar-logo.svg"
+      'navbar-logo-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/navbar-logo.svg')"
     }
     },
   },
