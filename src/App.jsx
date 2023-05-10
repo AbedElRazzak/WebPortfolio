@@ -48,7 +48,7 @@ function App() {
 
               <div className='flex flex-row justify-center'>
                 <div className='text-center pr-2'>Designer, currently an intern at </div>
-                <div className='text-center p1 text-gradient-100'>Smartech</div>
+                <div className='text-center p1 text-gradient-100'></div>
               </div>
               <div className='text-center'>as a web developer.</div>
 
@@ -148,13 +148,36 @@ function App() {
           </div>
         </div>
 
-        <div className=" h-12 w-full my-4 cursor-pointer rounded-xl bg-secondary-200 transition delay-[35ms] ease-in hover:bg-gradient-100 drop-shadow-xl hover:drop-shadow-3xl">
+        <div className=" h-12 w-full my-20 cursor-pointer rounded-xl bg-secondary-200 transition delay-[35ms] ease-in hover:bg-gradient-100 drop-shadow-xl hover:drop-shadow-3xl">
           <div className="flex h-full w-auto flex-col items-center justify-center rounded-xl transition ease-in hover:bg-gradient-100">
             <div className="p1 hover:h6 flex h-12 w-auto items-center justify-center rounded-2xl px-8 py-2 text-primary-400 transition ease-in hover:text-secondary-100 rounded-xl">See more</div>
           </div>
         </div>
 
 
+
+      </div>
+      <div className='bg-primary-50 mt-20'>
+
+        <div className='h-auto w-full  flex flex-col items-center space-y-[-1rem] py-20'>
+          <div className='h3 text-gradient-50'>Skills and</div>
+          <div className='h3 text-gradient-50'>Expertise</div>
+        </div>
+
+        <div className='h-auto w-full h4 space-y-[-0.5rem] mb-10 flex flex-col items-center '>
+          <div>Software</div>
+          <div>Development</div>
+        </div>
+
+        <div className='h4 space-y-[-0.5rem] mb-10 flex flex-col items-center '>
+          <div>UI & UX</div>
+          <div>Design</div>
+        </div>
+
+        <div className='h4 space-y-[-0.5rem] mb-10 flex flex-col items-center '>
+          <div>Languages &</div>
+          <div>Computer Skills</div>
+        </div>
 
       </div>
 
