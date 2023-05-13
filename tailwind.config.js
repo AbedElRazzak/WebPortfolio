@@ -94,7 +94,8 @@ export default {
       'navbar-logo-dev': "url('assets/navbar-logo.svg')",
       'navbar-logo-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/navbar-logo.svg')",
       'demo-pic-1': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/demo-pic.jpg')",
-      'demo-pic-2': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/demo-pic-2.jpg')"
+      'demo-pic-2': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/demo-pic-2.jpg')",
+      'down-arrow': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/down-arrow.png')",
     }
     },
   },
