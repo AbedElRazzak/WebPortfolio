@@ -115,9 +115,15 @@ function App() {
 
 
 
-        <div className='h-full w-full flex flex-row justify-evenly content-evenly items-center space-x-0 pt-4 sm:pb-20 lg:pb-80'>
-          <div className="h-56 w-36 bg-contain bg-no-repeat bg-ui-mobile-react-prod"></div>
-          <div className="h-40 w-36 bg-cover bg-no-repeat bg-ui-mobile-figma-prod"></div>
+        <div className='h-full w-full flex flex-row justify-evenly content-evenly items-center space-x-0 pt-24 pb-20 sm:pb-24 lg:pb-[12rem] '>
+          <div className="sm:hidden h-64 w-36 bg-cover bg-no-repeat bg-ui-mobile-react-prod"></div>
+          <div className="sm:hidden h-52 w-44 bg-contain bg-center bg-no-repeat bg-ui-mobile-figma-prod"></div>
+
+          <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-figma bg-center '></div>
+          <div className='hidden sm:block h-[30rem] w-[21rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-flutter bg-center '></div>
+          <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-blender bg-center '></div>
+          <div className='hidden sm:block h-[30rem] w-[20rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-react bg-center '></div>
+
         </div>
 
 
@@ -144,7 +150,7 @@ function App() {
 
 
     </div>
-    <div className='h-auto w-full mt-20 px-0 lg:px-16'>
+    <div className='h-auto w-full mt-0 px-0 lg:px-16'>
 
       <div className='h3 lg:h2 h-auto w-full text-center md:text-left text-gradient-50 md:inline md:px-4 pr-2'>Projects</div>
       <div className='h-auto w-full flex flex-col md:px-4'>
@@ -227,6 +233,7 @@ function App() {
 
 
       </div>
+      
 
 
 
@@ -254,6 +261,7 @@ function App() {
         </div>
 
       </div>
+      
 
 
     </div>
