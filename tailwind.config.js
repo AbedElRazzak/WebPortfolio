@@ -83,23 +83,22 @@ export default {
 
     },
     backgroundImage: {
-      'hero-main-dev': "url('assets/hero-main.png')",
       'hero-main-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/hero-main-desktop.png')",
-      'ui-mobile-figma-dev': "url('assets/ui-mobile-figma.png')",
       'ui-mobile-figma-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/ui-mobile-figma.png')",
-      'ui-mobile-react-dev': "url('assets/ui-mobile-react.png')",
       'ui-mobile-react-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/ui-mobile-react.png')",
       'ui-lg-react': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/react-moblie-lg.png')",
       'ui-lg-flutter': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/ui-lg-flutter.png')",
       'ui-lg-figma': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/ui-lg-figma.png')",
       'ui-lg-blender': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/ui-lg-blender.png')",
-      'burger-logo-dev': "url('assets/burger-logo.png')",
       'burger-logo-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/burger-logo.png')",
-      'navbar-logo-dev': "url('assets/navbar-logo.svg')",
       'navbar-logo-prod': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/navbar-logo.svg')",
       'demo-pic-1': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/demo-pic.jpg')",
       'demo-pic-2': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/demo-pic-2.jpg')",
       'down-arrow': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/down-arrow.png')",
+      'code-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/code-icon.png')",
+      'palette-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/palette-icon.png')",
+      'lang-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/lang-icon.png')",
+      'hero-bg-2': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Hero-bg-2.png')"
     }
     },
   },

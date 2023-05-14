@@ -28,7 +28,7 @@
     }
 
     .p1 {
-        @apply text-p1 font-atkinson leading-[32px]
+        @apply text-p1 font-atkinson tracking-[-1px] leading-[32px]
     }
 
     .p2 {
@@ -36,7 +36,7 @@
     }
 
     .p3 {
-        @apply text-p3 font-atkinson leading-[16px]
+        @apply text-p3 font-atkinson leading-[16px] tracking-[-0.1px]
     }
 
     .text-gradient-50 {
