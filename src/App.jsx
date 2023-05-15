@@ -219,7 +219,7 @@ function App() {
       </div>
 
     </div>
-    <div className='z-10'>
+    <div className=' absolute z-10 w-full'>
     <div className='bg-primary-50 rounded-b-[3rem] '>
       <div className='h-auto w-full  flex flex-col sm:flex-row items-center space-y-[-1rem] sm:space-y-[0rem] sm:justify-center py-20'>
         <div className='h3 lg:h2 text-gradient-50 p-1'>Skills and</div>
@@ -324,7 +324,21 @@ function App() {
 
     
     </div>
-    <div className='bg-hero-bg-2 h-[1000px] w-full bg-no-repeat z-0'></div>
+    <div className='flex flex-col justify-start pt-80 sm:pt-60 lg:pt-40 items-center bg-hero-bg-2 h-[1000px] w-full bg-no-repeat bg-auto relative z-0  top-[1900px] lg:top-[800px]'>
+      <div className='flex flex-col items-center'>
+        <div className='h2 sm:h1 text-shades-50'>Build a web app</div>
+        <div className='h2 sm:h1 text-shades-50 w-fit'>with me</div>
+      </div>
+
+      <div className='h-auto w-full sm:max-w-[265px] pt-16 lg:pt-20 max-w-[265px]'>
+          <div className="m-1 flex h-12 cursor-pointer rounded-xl border-2 border-primary-400 bg-primary-400 transition delay-[35ms] ease-in hover:border-secondary-300 hover:bg-secondary-300 hover:drop-shadow-2xl">
+            <div className="flex h-full w-full flex-col items-center justify-center rounded-xl transition ease-in hover:bg-secondary-300">
+              <div className="p1 hover:h6 flex h-12 w-full items-center justify-center rounded-2xl px-8 py-2 text-secondary-300 transition ease-in hover:text-gradient-100 rounded-xl">View my resume</div>
+            </div>
+          </div>
+      </div>
+
+    </div>
 
     
   </div> 
