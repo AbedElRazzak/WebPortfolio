@@ -8,7 +8,7 @@ function App() {
 
   return (
    <div className='h-screen w-full '>
-    
+
     <div className='bg-primary-400 text-secondary-50 text-[0.875rem] text-center pb-2'>
       Check out my blog to stay updated on my current activities, whereabouts, and ongoing projects 🚀
     </div>
@@ -127,9 +127,9 @@ function App() {
           <div className="sm:hidden h-52 w-44 bg-contain bg-center bg-no-repeat bg-ui-mobile-figma-prod"></div>
 
           <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-figma bg-center '></div>
-          <div className='hidden sm:block h-[30rem]  w-[21rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-flutter bg-center '></div>
-          <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-blender bg-center '></div>
           <div className='hidden sm:block h-[30rem] w-[20rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-react bg-center '></div>
+          <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-blender bg-center '></div>
+          <div className='hidden sm:block h-[30rem]  w-[21rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-python bg-center '></div>
 
         </div>
       </div>
@@ -137,11 +137,28 @@ function App() {
 
 
     <div className='h-auto w-full mt-0 px-0 lg:px-10'>
-      <div className='h3 lg:h2 h-auto w-full text-center md:text-left text-gradient-50 md:inline md:px-4 pr-2'>Projects</div>
-      <div className='h-auto w-full flex flex-col md:px-4'>
-        <div className='h-auto w-auto text-center md:text-left h6 sm:h5'>The best way to learn</div>
-        <div className='h-auto w-auto  text-center md:text-left h6 sm:h5'>is to build</div>
-      </div>
+      <div className='h-auto w-full  flex flex-row'>
+        <div className='h-auto w-full'>
+          <div className='h3 lg:h2 h-auto w-full text-center md:text-left text-gradient-50 md:inline md:px-4 pr-2'>Projects</div>
+          <div className='h-auto w-full flex flex-col md:px-4'>
+            <div className='h-auto w-auto text-center md:text-left h6 sm:h5'>The best way to learn</div>
+            <div className='h-auto w-auto  text-center md:text-left h6 sm:h5'>is to build</div>
+          </div>
+       </div>
+       <div className='h-auto w-full flex items-center justify-end  hidden sm:flex pr-6 '>
+        <div className=' h-16 w-64 flex flex-row place-content-between rounded-3xl items-center justify-start bg-secondary-50 drop-shadow-5xl cursor-pointer'>
+          <div className='p1 text-primary-400  min-w-fit rounded-[40px] pl-6'>Web projects</div>
+          <div className='h-full w-full  flex items-center justify-end rounded-3xl '>
+            {/* <div className='bg-down-arrow-black  bg-no-repeat bg-contain bg-center h-3 w-2 pr-10 '></div> */}
+            <div className='pr-5'>
+              <img src='https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/down-arrow-black.png'/>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       {/* end */}
+     </div>
 
 
       <div className='flex flex-col h-auto w-auto mt-12 items-center md:flex-row md:flex-wrap md:place-content-evenly'>
