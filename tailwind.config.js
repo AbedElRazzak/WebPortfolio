@@ -98,7 +98,13 @@ export default {
       'code-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/code-icon.png')",
       'palette-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/palette-icon.png')",
       'lang-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/lang-icon.png')",
-      'hero-bg-2': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Hero-bg-2.png')"
+      'hero-bg-2': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Hero-bg-2.png')",
+      'contact-bg': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/contact-bg.png')",
+      'copyright-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/copyright-icon.png')",
+      'linkedin-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/LinkedIn-icon.png')",
+      'twitter-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Twitter-icon.png')",
+      'instagram-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Instagram-icon.png')",
+      'github-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Github-icon.png')",
     }
     },
   },

@@ -127,7 +127,7 @@ function App() {
           <div className="sm:hidden h-52 w-44 bg-contain bg-center bg-no-repeat bg-ui-mobile-figma-prod"></div>
 
           <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-figma bg-center '></div>
-          <div className='hidden sm:block h-[30rem] w-[21rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-flutter bg-center '></div>
+          <div className='hidden sm:block h-[30rem]  w-[21rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-flutter bg-center '></div>
           <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-blender bg-center '></div>
           <div className='hidden sm:block h-[30rem] w-[20rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-react bg-center '></div>
 
@@ -219,6 +219,7 @@ function App() {
       </div>
 
     </div>
+
     <div className=' absolute z-10 w-full'>
     <div className='bg-primary-50 rounded-b-[3rem] '>
       <div className='h-auto w-full  flex flex-col sm:flex-row items-center space-y-[-1rem] sm:space-y-[0rem] sm:justify-center py-20'>
@@ -324,7 +325,9 @@ function App() {
 
     
     </div>
-    <div className='flex flex-col justify-start pt-80 sm:pt-60 lg:pt-40 items-center bg-hero-bg-2 h-[1000px] w-full bg-no-repeat bg-auto relative z-0  top-[1900px] lg:top-[800px]'>
+    
+
+    <div className='flex  flex-col justify-start pt-80 sm:pt-60 lg:pt-40 items-center bg-hero-bg-2 h-[700px] w-full bg-no-repeat bg-cover relative z-0  top-[1900px] lg:top-[800px]'>
       <div className='flex flex-col items-center'>
         <div className='h2 sm:h1 text-shades-50'>Build a web app</div>
         <div className='h2 sm:h1 text-shades-50 w-fit'>with me</div>
@@ -338,8 +341,55 @@ function App() {
           </div>
       </div>
 
+      
+
     </div>
 
+
+    <div className='h-auto text-secondary-50 w-full absolute top-[6400px] sm:top-[5300px] lg:top-[4000px] bg-primary-400 '>
+
+      <div className='h-full w-full flex flex-col '>
+
+        <div className='h-full w-full flex justify-center items-center bg-contact-bg bg-no-repeat bg-cover sm:bg-contain bg-left sm:bg-center'>
+          <div className='h-full w-full px-6 py-12 sm:py-40 pb-28 space-y-3 max-w-lg'>
+            <div className='h3 underline '>Contact</div>
+            <div className='px-[19px] py-[10px] bg-secondary-50 border-[1px] border-[#8DBDD3] rounded-[15px] p1 text-primary-200'>Enter your Full Name</div>
+            <div className='px-[19px] py-[10px] bg-secondary-50 border-[1px] border-[#8DBDD3] rounded-[15px] p1 text-primary-200'>Enter your Email</div>
+            <div className='px-[19px] py-[10px] bg-secondary-50 border-[1px] border-[#8DBDD3] rounded-[15px] p1 text-primary-200 min-h-[9rem]'>Message</div>
+
+            <div className='h-auto w-full sm:max-w-[265px] '>
+              <div className="m-1 flex h-12 cursor-pointer rounded-xl bg-secondary-200 transition delay-[35ms] ease-in border-[1px] border-[#8DBDD3]  hover:drop-shadow-3xl">
+                <div className="flex h-full w-full flex-col items-center justify-center rounded-xl transition ease-in h">
+                  <div className="p1 hover:h6 flex h-12 w-full items-center justify-center rounded-2xl px-8 py-2 text-primary-400 transition ease-in hover:text-gradient-50  rounded-xl">Work with me</div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+
+        <div className='h-full w-full flex flex-col sm:flex-row items-center justify-center'>
+
+          <div className='sm:order-first w-full h-full flex justify-center sm:justify-start items-center py-4 sm:px-8'>
+            <div className='flex flex-row items-center justify-center space-x-2'>
+               <div className='bg-copyright-icon h-6 w-6 bg-no-repeat bg-contain'></div>
+               <div className='h-full w-full p3'>2023 Abed El Razzak Chreim. All rights reserved.</div>
+            </div>
+          </div>
+          
+          <div className='order-first w-full h-full flex justify-center sm:justify-end items-center p-2 sm:px-8 '>
+            <div className='h-auto w-fit space-x-4 flex flex-row '>
+              <div className='bg-twitter-icon h-8 sm:h-6 w-8 bg-no-repeat bg-contain'></div>
+              <div className='bg-instagram-icon h-8 w-8 sm:h-6 bg-no-repeat bg-contain'></div>
+              <div className='bg-linkedin-icon h-8 w-8 sm:h-6 bg-no-repeat bg-contain'></div>
+              <div className='bg-github-icon h-8 w-8 sm:h-6 bg-no-repeat bg-contain'></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
     
   </div> 
   )
