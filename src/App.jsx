@@ -2,6 +2,8 @@
 import React from 'react'
 import '../dist/output.css'
 import './input.css'
+import DropDown from './components/DropDown.jsx'
+import ThemeDropDown from './components/ThemeDropDown.jsx'
 
 function App() {
  
@@ -30,14 +32,8 @@ function App() {
 
           <div className='h-4 bg-right  w-full bg-contain bg-no-repeat bg-burger-logo-prod mb-1 lg:invisible'></div>
 
-          <div className='hidden lg:flex invisible lg:visible w-full flex flex-row items-center justify-end '>
-            <div className='flex flex-row  w-fit bg-primary-400 items-center px-3 py-1 rounded-md cursor-pointer'>
-              <div className='text-secondary-50 p2 w-full'>Light</div>
-              <div className='h-2 w-full flex justify-center items-center pl-5'>
-                <div className='h-full bg-down-arrow w-3 bg-no-repeat bg-center bg-contain'></div>
-              </div>
-            </div>
-          </div>
+
+          <ThemeDropDown />
 
         </div>
 
@@ -146,16 +142,9 @@ function App() {
           </div>
        </div>
        <div className='h-auto w-full flex items-center justify-end  hidden sm:flex pr-6 '>
-        <div className=' h-16 w-64 flex flex-row place-content-between rounded-3xl items-center justify-start bg-secondary-50 drop-shadow-5xl cursor-pointer'>
-          <div className='p1 text-primary-400  min-w-fit rounded-[40px] pl-6'>Web projects</div>
-          <div className='h-full w-full  flex items-center justify-end rounded-3xl '>
-            {/* <div className='bg-down-arrow-black  bg-no-repeat bg-contain bg-center h-3 w-2 pr-10 '></div> */}
-            <div className='pr-5'>
-              <img src='https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/down-arrow-black.png'/>
-            </div>
-          </div>
-        </div>
+        <DropDown />
        </div>
+       
 
        {/* end */}
      </div>
