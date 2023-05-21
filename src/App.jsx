@@ -4,6 +4,7 @@ import '../dist/output.css'
 import './input.css'
 import DropDown from './components/DropDown.jsx'
 import ThemeDropDown from './components/ThemeDropDown.jsx'
+import ContactForm from './components/ContactForm'
 
 function App() {
  
@@ -152,70 +153,70 @@ function App() {
 
       <div className='flex flex-col h-auto w-auto mt-12 items-center md:flex-row md:flex-wrap md:place-content-evenly'>
 
-        <div className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
+        <a href='https://abedelrazzak.github.io/path-finding-visualizer/' target="_blank" className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
           <div className='h-auto w-auto p-3 rounded-3xl'>
-            <div className='bg-demo-pic-1 h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
+            <div className='bg-path-finding-visualizer-pic h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
           </div>
           <div className='h-full w-full flex flex-col pl-3'>
             <div className='h5 text-primary-400'>Path finding visualizer</div>
             <div className='p1 text-primary-200'>html css react javascript</div>
           </div>
-        </div>
+        </a>
 
-        <div className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
+        <a href='https://abedelrazzak.github.io/sorting-visualizer/' target='_blank' className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
           <div className='h-auto w-auto p-3 rounded-3xl'>
-            <div className='bg-demo-pic-2 h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
+            <div className='bg-sorting-visualizer-pic h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
+          </div>
+          <div className='h-full w-full flex flex-col pl-3'>
+            <div className='h5 text-primary-400'>Sorting visualizer</div>
+            <div className='p1 text-primary-200'>html css react javascript</div>
+          </div>
+        </a>
+
+        <a href='https://abedelrazzak.github.io/wordvid/' target='_blank'  className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
+          <div className='h-auto w-auto p-3 rounded-3xl'>
+            <div className='bg-wordvid-pic h-64 w-full bg-cover bg-center bg-no-repeat rounded-3xl'></div>
           </div>
           <div className='h-full w-full flex flex-col pl-3'>
             <div className='h5 text-primary-400'>Wordvid</div>
             <div className='p1 text-primary-200'>react tailwind python</div>
           </div>
-        </div>
-
-        <div className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
-          <div className='h-auto w-auto p-3 rounded-3xl'>
-            <div className='bg-demo-pic-2 h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
-          </div>
-          <div className='h-full w-full flex flex-col pl-3'>
-            <div className='h5 text-primary-400'>Wordvid</div>
-            <div className='p1 text-primary-200'>react tailwind python</div>
-          </div>
-        </div>
+        </a>
 
         
 
-        <div className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl flex flex-col'>
+        <a href='https://abedelrazzak.github.io/ElonDrifts/' target='_blank'  className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl flex flex-col'>
           <div className='h-auto w-auto p-3 rounded-3xl'>
-            <div className='bg-demo-pic-1 h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
+            <div className='bg-elondrifts-pic h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
           </div>
           <div className='h-full w-full flex flex-col pl-3'>
             <div className='h5 text-primary-400'>ElonDrifts</div>
-            <div className='p1 text-primary-200'>React ThreeJS Blender</div>
+            <div className='p1 text-primary-200'>React css ThreeJS Blender</div>
           </div>
-        </div>
+        </a>
 
-        <div className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl flex flex-col'>
+        <a href='https://abedelrazzak.github.io/WebPortfolio/' target='_blank'  className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl flex flex-col'>
           <div className='h-auto w-auto p-3 rounded-3xl'>
-            <div className='bg-demo-pic-1 h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
+            <div className='bg-webportfolio-pic h-64 w-full bg-cover bg-center bg-no-repeat rounded-3xl'></div>
           </div>
           <div className='h-full w-full flex flex-col pl-3'>
-            <div className='h5 text-primary-400'>ElonDrifts</div>
-            <div className='p1 text-primary-200'>React ThreeJS Blender</div>
+            <div className='h5 text-primary-400'>Web portfolio</div>
+            <div className='p1 text-primary-200'>React tailwind </div>
           </div>
-        </div>
+        </a>
 
-        <div className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
+        <a href='https://www.figma.com/file/aL5W7WEVamggEPiaF8KuJk/Portfolio?type=design&t=n2NzYpQdF1W8xLfX-0' target='_blank'  className='mt-4 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
           <div className='h-auto w-auto p-3 rounded-3xl'>
-            <div className='bg-demo-pic-1 h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
+            <div className='bg-webportfolioDesign-pic h-64 w-full bg-cover bg-no-repeat rounded-3xl'></div>
           </div>
           <div className='h-full w-full flex flex-col pl-3'>
-            <div className='h5 text-primary-400'>Path finding visualizer</div>
-            <div className='p1 text-primary-200'>html css react javascript</div>
+            <div className='h5 text-primary-400'>Web portfolio Design</div>
+            <div className='p1 text-primary-200'>Figma</div>
           </div>
-        </div>
+        </a>
 
-        <div className='h-auto w-full px-6'>
-        <div className="md:invisible  h-12 w-full my-20 cursor-pointer rounded-xl bg-secondary-200 transition delay-[35ms] ease-in hover:bg-gradient-100 drop-shadow-xl hover:drop-shadow-3xl">
+        <div className='h-auto w-full px-6 '>
+        <div className="invisible md:invisible  h-12 w-full my-20 cursor-pointer rounded-xl bg-secondary-200 transition delay-[35ms] ease-in hover:bg-gradient-100 drop-shadow-xl hover:drop-shadow-3xl">
           <div className="flex h-full w-auto flex-col items-center justify-center rounded-xl transition ease-in hover:bg-gradient-100">
             <div className="p1 hover:h6 flex h-12 w-auto items-center justify-center rounded-2xl px-8 py-2 text-primary-400 transition ease-in hover:text-secondary-100 rounded-xl">See more</div>
           </div>
@@ -355,23 +356,11 @@ function App() {
     <div className='h-auto text-secondary-50 w-full absolute top-[6400px] sm:top-[5300px] lg:top-[4000px] bg-primary-400 '>
 
       <div className='h-full w-full flex flex-col '>
-
+{/* form */}
         <div className='h-full w-full flex justify-center items-center bg-contact-bg bg-no-repeat bg-cover sm:bg-contain bg-left sm:bg-center'>
-          <div className='h-full w-full px-6 py-12 sm:py-40 pb-28 space-y-3 max-w-lg'>
-            <div className='h3 underline '>Contact</div>
-            <div className='px-[19px] py-[10px] bg-secondary-50 border-[1px] border-[#8DBDD3] rounded-[15px] p1 text-primary-200'>Enter your Full Name</div>
-            <div className='px-[19px] py-[10px] bg-secondary-50 border-[1px] border-[#8DBDD3] rounded-[15px] p1 text-primary-200'>Enter your Email</div>
-            <div className='px-[19px] py-[10px] bg-secondary-50 border-[1px] border-[#8DBDD3] rounded-[15px] p1 text-primary-200 min-h-[9rem]'>Message</div>
-
-            <div className='h-auto w-full sm:max-w-[265px] '>
-              <div className="m-1 flex h-12 cursor-pointer rounded-xl bg-secondary-200 transition delay-[35ms] ease-in border-[1px] border-[#8DBDD3]  hover:drop-shadow-3xl">
-                <div className="flex h-full w-full flex-col items-center justify-center rounded-xl transition ease-in h">
-                  <div className="p1 hover:h6 flex h-12 w-full items-center justify-center rounded-2xl px-8 py-2 text-primary-400 transition ease-in hover:text-gradient-50  rounded-xl">Work with me</div>
-                </div>
-              </div>
-              </div>
-          </div>
+<ContactForm />
         </div>
+{/* form */}
 
         <div className='h-full w-full flex flex-col sm:flex-row items-center justify-center'>
 

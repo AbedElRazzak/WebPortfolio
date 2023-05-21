@@ -107,6 +107,12 @@ export default {
       'twitter-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Twitter-icon.png')",
       'instagram-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Instagram-icon.png')",
       'github-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Github-icon.png')",
+      'path-finding-visualizer-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Path-finding-visualizer-pic.jpeg')",
+      'sorting-visualizer-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/sorting-visualizer-pic.jpeg')",
+      'wordvid-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/wordvid-pic.jpeg')",
+      'elondrifts-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/elondrifts-pic.jpeg')",
+      'webportfolio-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/webportfolio-pic.png')",
+      'webportfolioDesign-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/webportfolioDesign-pic.png')"
     }
     },
   },

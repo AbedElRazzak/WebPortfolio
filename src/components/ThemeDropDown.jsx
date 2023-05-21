@@ -24,7 +24,7 @@ export default function ThemeDropDown() {
       <div className=''>
         <Menu.Button className="hidden lg:flex invisible lg:visible w-full flex flex-row items-center justify-end ">
         <div className='flex flex-row  w-fit bg-primary-400 items-center px-3 py-1 rounded-md cursor-pointer'>
-              <div className='text-secondary-50 p2 w-full'>Light</div>
+              <div className='text-secondary-50 p2 w-full'>Eng</div>
               <div className='h-2 w-full flex justify-center items-center pl-5'>
                 <div className='h-full bg-down-arrow w-3 bg-no-repeat bg-center bg-contain'></div>
               </div>
@@ -52,7 +52,7 @@ export default function ThemeDropDown() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Light
+                  Eng
                 </a>
               )}
             </Menu.Item>
@@ -65,7 +65,7 @@ export default function ThemeDropDown() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Dark
+                  Fr
                 </a>
               )}
             </Menu.Item>
