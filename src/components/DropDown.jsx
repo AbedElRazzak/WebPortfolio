@@ -7,17 +7,6 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-        {/* <div className=' h-16 w-64 flex flex-row place-content-between rounded-3xl items-center justify-start bg-secondary-50 drop-shadow-5xl cursor-pointer'> */}
-          {/* <div className='p1 text-primary-400  min-w-fit rounded-[40px] pl-6'>Web projects</div>
-          <div className='h-full w-full  flex items-center justify-end rounded-3xl '> */}
-            {/* <div className='bg-down-arrow-black  bg-no-repeat bg-contain bg-center h-3 w-2 pr-10 '></div> */}
-            {/* <div className='pr-5'>
-              <img src='https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/down-arrow-black.png'/>
-            </div>
-          </div>
-        </div> */}
-
-        // h-16 w-64 flex flex-row place-content-between rounded-3xl items-center justify-start bg-secondary-50 drop-shadow-5xl cursor-pointer
 
 export default function DropDown() {
 
@@ -26,10 +15,7 @@ export default function DropDown() {
     <Menu as="div" className="relative inline-block text-left">
       <div className=''>
         <Menu.Button className="h-16 w-64 flex flex-row place-content-between rounded-3xl items-center justify-start bg-secondary-50 drop-shadow-5xl cursor-pointer">
-          {/* WebApps */}
-          {/* <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" /> */}
-          {/* <img src='https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/down-arrow-black.png'/> */}
-                    <div className='p1 text-primary-400  min-w-fit rounded-[40px] pl-6'>WebApps</div>
+          <div className='p1 text-primary-400  min-w-fit rounded-[40px] pl-6'>WebApps</div>
           <div className='h-full w-full  flex items-center justify-end rounded-3xl '>
             <div className='bg-down-arrow-black  bg-no-repeat bg-contain bg-center h-3 w-2 pr-10 '></div>
         <div className='pr-5'>

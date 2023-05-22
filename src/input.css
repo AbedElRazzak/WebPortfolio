@@ -55,4 +55,8 @@
         @apply   bg-gradient-to-br from-accent-blue-100 from-10% via-accent-blue-300 to-accent-blue-400
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
 }
