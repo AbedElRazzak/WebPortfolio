@@ -11,6 +11,7 @@ import {
 } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import ResumeViewPage from './components/ResumeViewPage';
+import BlogPage from './components/BlogPage';
 
 
 
@@ -20,7 +21,8 @@ function App() {
     <Router>
       <Routes>
         <Route exact path='/WebPortfolio/' element={<HomePage />}></Route>
-        <Route exact path='/WebPortfolio/Resume' element={<ResumeViewPage />}></Route>
+        <Route path='/WebPortfolio/Resume' element={<ResumeViewPage />}></Route>
+        <Route path='/WebPortfolio/BlogPage' element={<BlogPage />}></Route>
       </Routes>
     </Router>
   )
