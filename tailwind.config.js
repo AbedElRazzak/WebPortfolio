@@ -58,7 +58,7 @@ export default {
         },
         border: {
           50: "#99DFFF"
-        }
+        },
     },
     fontSize: {
       h1xl: "82.6px",
@@ -81,6 +81,7 @@ export default {
       '3xl': '0px 0px 16px #66CFFF',
       '4xl': '0px 0px 50px #E0B3DA',
       '5xl': '0px 0px 9px #90C5D5',
+      '6xl': '0px 0px 9px #FFFFFF'
 
     },
     backgroundImage: {

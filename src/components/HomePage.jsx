@@ -16,6 +16,8 @@ export default function HomePage() {
 
   const navigate = useNavigate()
 
+  const [lang, setLang] = React.useState("")
+
     return (
     <div className='h-full w-full' id="homepage">
 
@@ -45,7 +47,7 @@ export default function HomePage() {
       
           <div className='h-auto w-full sm:max-w-[265px] pt-6 lg:pt-20 max-w-[265px]'>
             {/* onClick={() => navigate("/WebPortfolio/Resume")} */}
-              <a target="_blank" href="/WebPortfolio/Resume"  className="m-1 flex h-12 cursor-pointer rounded-xl border-2 border-primary-400 bg-primary-400 transition delay-[35ms] ease-in hover:border-secondary-300 hover:bg-secondary-300 hover:drop-shadow-2xl">
+              <a href="/WebPortfolio/Resume"  className="m-1 flex h-12 cursor-pointer rounded-xl border-2 border-primary-400 bg-primary-400 transition delay-[35ms] ease-in hover:border-secondary-300 hover:bg-secondary-300 hover:drop-shadow-2xl">
                 <div className="flex h-full w-full flex-col items-center justify-center rounded-xl transition ease-in hover:bg-secondary-300">
                 <div className="p1 hover:h6 flex h-12 w-full items-center justify-center rounded-2xl px-8 py-2 text-secondary-300 transition ease-in hover:text-gradient-100 rounded-xl">View my resume</div>
               </div>

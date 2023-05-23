@@ -4,7 +4,7 @@ import DropDown from "./DropDown";
 
 export default function Projects() {
     return (
-    <div className='h-auto w-full mt-0 px-0 lg:px-10' id="projects">
+    <div className='h-auto w-full scroll-m-[4rem] px-0 lg:px-10' id="projects">
       <div className='h-auto w-full  flex flex-row'>
         <div className='h-auto w-full'>
           <div className='h3 lg:h2 h-auto w-full text-center md:text-left text-gradient-50 md:inline md:px-4 pr-2'>Projects</div>

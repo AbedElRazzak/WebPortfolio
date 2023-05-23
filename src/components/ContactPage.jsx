@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 export default function ContactPage() {
   // absolute top-[6400px] sm:top-[5300px] lg:top-[4000px] z-20
     return (
-    <div className='h-full text-secondary-50 w-full  bg-primasry-400 ' id="contactPage">
+    <div className='h-full text-secondary-50 w-full  bg-primary-400 ' id="contactPage">
 
       <div className='h-full w-full flex flex-col '>
 

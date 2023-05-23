@@ -3,7 +3,7 @@ import React from "react";
 
 export default function SkillsAndExpertise() {
     return (
-    <div className='h-full w-full relative z-10' id="skillsAndExpertise">
+    <div className='h-full w-full relative z-10 ' id="skillsAndExpertise">
     <div className='bg-primary-50 rounded-b-[1.5rem] '>
       <div className='h-auto w-full  flex flex-col sm:flex-row items-center space-y-[-1rem] sm:space-y-[0rem] sm:justify-center py-20'>
         <div className='h3 lg:h2 text-gradient-50 p-1'>Skills and</div>
