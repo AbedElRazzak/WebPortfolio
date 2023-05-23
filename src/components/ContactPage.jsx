@@ -25,10 +25,10 @@ export default function ContactPage() {
           
           <div className='order-first w-full h-full flex justify-center sm:justify-end items-center p-2 sm:px-8 '>
             <div className='h-auto w-fit space-x-4 flex flex-row '>
-              <div className='bg-twitter-icon h-8 sm:h-6 w-8 bg-no-repeat bg-contain'></div>
-              <div className='bg-instagram-icon h-8 w-8 sm:h-6 bg-no-repeat bg-contain'></div>
-              <div className='bg-linkedin-icon h-8 w-8 sm:h-6 bg-no-repeat bg-contain'></div>
-              <div className='bg-github-icon h-8 w-8 sm:h-6 bg-no-repeat bg-contain'></div>
+              <a target="_blank" href="https://twitter.com/AbedElRazzak1" className='bg-twitter-icon h-8 sm:h-6 w-8 bg-no-repeat bg-contain'></a>
+              <a target="_blank" href="https://www.instagram.com/abedelrazzakchreim/?hl=en" className='bg-instagram-icon h-8 w-8 sm:h-6 bg-no-repeat bg-contain'></a>
+              <a target="_blank" href="https://www.linkedin.com/in/abed-el-razzak-chreim-b5a33a1a3/" className='bg-linkedin-icon h-8 w-8 sm:h-6 bg-no-repeat bg-contain'></a>
+              <a target="_blank" href="https://github.com/AbedElRazzak" className='bg-github-icon h-8 w-8 sm:h-6 bg-no-repeat bg-contain'></a>
             </div>
           </div>
 
