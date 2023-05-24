@@ -2,7 +2,7 @@
 import React from "react";
 import ContactForm from "./ContactForm";
 
-export default function ContactPage() {
+export default function ContactPage(props) {
   // absolute top-[6400px] sm:top-[5300px] lg:top-[4000px] z-20
     return (
     <div className='h-full text-secondary-50 w-full  bg-primary-400 ' id="contactPage">
@@ -10,7 +10,7 @@ export default function ContactPage() {
       <div className='h-full w-full flex flex-col '>
 
         <div className='h-full w-full flex justify-center items-center bg-contact-bg bg-no-repeat bg-cover sm:bg-contain bg-left sm:bg-center'>
-          <ContactForm />
+          <ContactForm lang={props.lang}/>
         </div>
 
 

@@ -113,7 +113,8 @@ export default {
       'wordvid-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/wordvid-pic.jpeg')",
       'elondrifts-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/elondrifts-pic.jpeg')",
       'webportfolio-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/webportfolio-pic.png')",
-      'webportfolioDesign-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/webportfolioDesign-pic.png')"
+      'webportfolioDesign-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/webportfolioDesign-pic.png')",
+      'circuitverse-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/circuitverse-pic.png')"
     }
     },
   },

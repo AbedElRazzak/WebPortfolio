@@ -8,14 +8,14 @@ function classNames(...classes) {
 }
 
 
-export default function DropDown() {
+export default function DropDown(props) {
 
 
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div className=''>
         <Menu.Button className="h-16 w-64 flex flex-row place-content-between rounded-3xl items-center justify-start bg-secondary-50 drop-shadow-5xl cursor-pointer">
-          <div className='p1 text-primary-400  min-w-fit rounded-[40px] pl-6'>WebApps</div>
+          <div className='p1 text-primary-400  min-w-fit rounded-[40px] pl-6'>{props.type}</div>
           <div className='h-full w-full  flex items-center justify-end rounded-3xl '>
             <div className='bg-down-arrow-black  bg-no-repeat bg-contain bg-center h-3 w-2 pr-10 '></div>
         <div className='pr-5'>
@@ -36,13 +36,28 @@ export default function DropDown() {
       >
         <Menu.Items className="absolute right-0 z-10 mt-2 w-full origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ">
           <div className="py-1 bg-secondary-50 drop-shadow-5xl">
+          <Menu.Item>
+              {({ active }) => (
+                <a
+                  onClick={() => props.typeChangeHandler("All")}
+                  className={classNames(
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    'block px-4 py-2 text-sm',
+                    'cursor-pointer'
+                  )}
+                >
+                  All
+                </a>
+              )}
+            </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  onClick={() => props.typeChangeHandler("WebApps")}
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    'block px-4 py-2 text-sm',
+                    'cursor-pointer'
                   )}
                 >
                   WebApps
@@ -52,10 +67,11 @@ export default function DropDown() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
-                  className={classNames(
+                onClick={() => props.typeChangeHandler("Designs")}
+                  className={ classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    'block px-4 py-2 text-sm',
+                    'cursor-pointer'
                   )}
                 >
                   Designs
@@ -65,10 +81,11 @@ export default function DropDown() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  onClick={() => props.typeChangeHandler("Other")}
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    'block px-4 py-2 text-sm',
+                    'cursor-pointer'
                   )}
                 >
                   Other
