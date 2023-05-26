@@ -81,7 +81,7 @@ export default function HeroMain(props) {
               {props.lang === "En" ?
               <div className='text-center'>with functionality.</div>
               :
-              <div className='text-center'> à la fonctionnalité.</div>
+              <div className='text-center'> avec la fonctionnalité.</div>
               }
               
 
