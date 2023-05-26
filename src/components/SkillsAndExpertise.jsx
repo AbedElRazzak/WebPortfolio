@@ -42,7 +42,7 @@ export default function SkillsAndExpertise(props) {
                 {props.lang === "En" ? 
                 <div className='pr-6'>Software</div>
                 :
-                <div className='pr-6'>développement</div>
+                <div className='pr-6'>Développement</div>
                 }
                 <div className='h-[4px] w-full bg-gradient-50'></div>
               </div>

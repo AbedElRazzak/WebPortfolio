@@ -73,7 +73,7 @@ export default function HeroMain(props) {
                 {props.lang === "En" ?
                 <div className='text-center pr-2'>designer, that blends aesthetics </div>
                 :
-                <div className='text-center pr-2'>architect, qui allie l'esthétique</div>
+                <div className='text-center pr-2'>architect, qui combine l'esthétique</div>
                 }
                 
                 <div className='text-center p1 text-gradient-100'></div>

@@ -83,36 +83,36 @@ export default function Navbar(props) {
 
             <div className="h-auto w-full  flex items-center justify-start  border-t-2" onClick={() => document.querySelector('div.hamburger-react').click()}>
               {props.lang === "En" ?
-              <a href="#homepage" className="h-fit w-fit font-[14px] font-bold leading-tight text-primary-400  py-3">Home</a>
+              <a href="#homepage" className="h-fit w-full font-[14px] font-bold leading-tight text-primary-400  py-3">Home</a>
               :
-              <a href="#homepage" className="h-fit w-fit font-[14px] font-bold leading-tight text-primary-400  py-3">Accueil</a>
+              <a href="#homepage" className="h-fit w-full font-[14px] font-bold leading-tight text-primary-400  py-3">Accueil</a>
               }
               
             </div>
 
             <div className="h-auto w-full  flex items-center justify-start  border-t-2" onClick={() => document.querySelector('div.hamburger-react').click()}>
               {props.lang === "En" ?
-              <a href="#projects" className="h-fit w-fit font-[14px] font-bold leading-tighttext-primary-400  py-3">Projects</a>
+              <a href="#projects" className="h-fit w-full font-[14px] font-bold leading-tighttext-primary-400  py-3">Projects</a>
               :
-              <a href="#projects" className="h-fit w-fit font-[14px] font-bold leading-tighttext-primary-400  py-3">Projets</a>
+              <a href="#projects" className="h-fit w-full font-[14px] font-bold leading-tighttext-primary-400  py-3">Projets</a>
               }
               
             </div>
 
             <div className="h-auto w-full  flex items-center justify-start border-t-2" onClick={() => document.querySelector('div.hamburger-react').click()}>
               {props.lang === "En" ?
-              <a href="#skillsAndExpertise" className="h-fit w-fit font-[14px] font-bold leading-tighttext-primary-400  py-3">Skills & Expertise</a>
+              <a href="#skillsAndExpertise" className="h-fit w-full font-[14px] font-bold leading-tighttext-primary-400  py-3">Skills & Expertise</a>
               :
-              <a href="#skillsAndExpertise" className="h-fit w-fit font-[14px] font-bold leading-tighttext-primary-400  py-3">Compétences et Savoir-faire</a>
+              <a href="#skillsAndExpertise" className="h-fit w-full font-[14px] font-bold leading-tighttext-primary-400  py-3">Compétences et Savoir-faire</a>
               }
               
             </div>
 
             <div className="h-auto w-full  flex items-center justify-start  border-t-2 border-b-2" onClick={() => document.querySelector('div.hamburger-react').click()}>
               {props.lang === "En" ?
-              <a href="#contactPage" className="h-fit w-fit font-[14px] font-bold leading-tight text-primary-400  py-3">Contact</a>
+              <a href="#contactPage" className="h-fit w-full font-[14px] font-bold leading-tight text-primary-400  py-3">Contact</a>
               :
-              <a href="#contactPage" className="h-fit w-fit font-[14px] font-bold leading-tight text-primary-400  py-3">Contact</a>
+              <a href="#contactPage" className="h-fit w-full font-[14px] font-bold leading-tight text-primary-400  py-3">Contact</a>
               }
             </div>
 
