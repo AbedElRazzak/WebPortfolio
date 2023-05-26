@@ -63,25 +63,25 @@ export default function HeroMain(props) {
       <div className='pt-4'>
           <div className='h-full w-full p1 text-primary-300 pt-6'>
             {props.lang === "En" ?
-            <div className='text-center w-full'>I am a full stack web developer & UI/UX</div>
+            <div className='text-center w-full'>I am a full stack web developer & UI/UX </div>
             :
-            <div className='text-center w-full'>Je suis développeur web full stack et UI/UX</div>
+            <div className='text-center w-full'>Je suis développeur web full stack et UI/UX </div>
             }
             
 
               <div className='flex flex-row justify-center'>
                 {props.lang === "En" ?
-                <div className='text-center pr-2'>designer, currently an intern at </div>
+                <div className='text-center pr-2'>designer, that blends aesthetics </div>
                 :
-                <div className='text-center pr-2'>architect, actuellement stagiaire chez </div>
+                <div className='text-center pr-2'>architect, qui allie l'esthétique</div>
                 }
                 
                 <div className='text-center p1 text-gradient-100'></div>
               </div>
               {props.lang === "En" ?
-              <div className='text-center'>as a web developer.</div>
+              <div className='text-center'>with functionality.</div>
               :
-              <div className='text-center'>en tant que développeur web.</div>
+              <div className='text-center'> à la fonctionnalité.</div>
               }
               
 
@@ -144,7 +144,7 @@ export default function HeroMain(props) {
           }}
           ></div>
 
-          <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-figma bg-center '
+          <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-contain min-[1200px]:bg-cover bg-no-repeat bg-ui-lg-figma bg-center '
           ref={ref1}          
           style={{
             transform: isInView1 ? "none" : "translateX(-8px)",
@@ -152,7 +152,7 @@ export default function HeroMain(props) {
             transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s"
           }}
           ></div>
-          <div className='hidden sm:block h-[30rem] w-[20rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-react bg-center '
+          <div className='hidden sm:block h-[30rem] w-[20rem]  sm:bg-contain lg:bg-contain min-[1200px]:bg-cover bg-no-repeat bg-ui-lg-react bg-center '
           ref={ref2}          
           style={{
             transform: isInView2 ? "none" : "translateX(-8px)",
@@ -160,7 +160,7 @@ export default function HeroMain(props) {
             transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s"
           }}
           ></div>
-          <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-blender bg-center '
+          <div className='hidden sm:block h-[18rem] w-[20rem] lg:w-96 sm:bg-contain lg:bg-contain min-[1200px]:bg-cover bg-no-repeat bg-ui-lg-blender bg-center  '
           ref={ref3}          
           style={{
             transform: isInView3 ? "none" : "translateX(8px)",
@@ -168,7 +168,7 @@ export default function HeroMain(props) {
             transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s"
           }}
           ></div>
-          <div className='hidden sm:block h-[30rem]  w-[21rem]  sm:bg-contain lg:bg-cover bg-no-repeat bg-ui-lg-python bg-center '
+          <div className='hidden sm:block h-[30rem]  w-[21rem]  sm:bg-contain lg:bg-contain min-[1200px]:bg-cover bg-no-repeat bg-ui-lg-python bg-center '
           ref={ref4}          
           style={{
             transform: isInView4 ? "none" : "translateX(8px)",

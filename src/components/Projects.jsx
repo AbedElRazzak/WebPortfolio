@@ -73,7 +73,7 @@ export default function Projects(props) {
 
   const Projects = () => {
     return (
-      <div className='flex flex-col h-auto w-auto mt-12 items-center md:flex-row md:flex-wrap lg:place-content-evenlys sm:pl-6 lg:pl-8' >
+      <div className='flex flex-col h-auto w-auto mt-12 items-center md:flex-col md:flex-wrap lg:flex-row lg:place-content-evenlys  lg:justify-start lg:pl-8' >
         {projectsData.map((project, index) => {
           if (project.type == type) {
             return (

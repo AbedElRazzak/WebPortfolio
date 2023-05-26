@@ -14,6 +14,10 @@ import ContactPage from './ContactPage';
 import { useRef } from "react";
 import { useInView } from "framer-motion"
 
+
+
+
+
 export default function HomePage() {
 
   const ref1 = useRef(null);
@@ -27,6 +31,11 @@ export default function HomePage() {
     if (lang != newLang) {
       setLang(newLang)
     }
+  }
+
+  const [hbIsToggled, setHbToggled] = React.useState(false)
+  function handleHbToggle(state) {
+    setHbToggled(state)
   }
 
   
@@ -44,8 +53,8 @@ export default function HomePage() {
       </div>
       
       
-      <Navbar lang={lang} handleLangChange={handleLangChange}/>
-      
+      <Navbar lang={lang} handleLangChange={handleLangChange} hbIsToggled={hbIsToggled} handleHbToggled={handleHbToggle}/>
+
       <HeroMain lang={lang} />
       
       <Projects lang={lang}/>
@@ -101,6 +110,10 @@ export default function HomePage() {
       </div>
       
      </div>
+
+      
+      
+
 
     </div>
     )
