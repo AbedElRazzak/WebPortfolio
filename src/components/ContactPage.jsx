@@ -10,7 +10,7 @@ export default function ContactPage(props) {
       <div className='h-full w-full flex flex-col '>
 
         <div className='h-full w-full flex justify-center items-center bg-contact-bg bg-no-repeat bg-cover sm:bg-contain bg-left sm:bg-center'>
-          <ContactForm lang={props.lang}/>
+          <ContactForm lang={props.lang} alertHandler={props.alertHandler}/>
         </div>
 
 

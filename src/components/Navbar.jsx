@@ -71,7 +71,7 @@ export default function Navbar(props) {
 
 
         {props.hbIsToggled === true &&
-        <div className="h-screen w-full bg-primary-50 backdrop-blur bg-shades-50/70 " 
+        <div className="h-screen w-full bg-shades-50 " 
         // ref={ref1}          
         // style={{
         // transform: isInView1 ? "none" : "translateY(-50px)",
@@ -79,9 +79,9 @@ export default function Navbar(props) {
         // transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
         // }}
         >
-          <div className="flex flex-col pt-7 pl-3">
-
-            <div className="h-auto w-full  flex items-center justify-start  border-t-2" onClick={() => document.querySelector('div.hamburger-react').click()}>
+          <div className="flex flex-col pt-7 ">
+            <div className="pl-3">
+            <div className=" h-auto w-full  flex items-center justify-start  border-t-2 " onClick={() => document.querySelector('div.hamburger-react').click()}>
               {props.lang === "En" ?
               <a href="#homepage" className="h-fit w-full font-[14px] font-bold leading-tight text-primary-400  py-3">Home</a>
               :
@@ -99,7 +99,7 @@ export default function Navbar(props) {
               
             </div>
 
-            <div className="h-auto w-full  flex items-center justify-start border-t-2" onClick={() => document.querySelector('div.hamburger-react').click()}>
+            <div className="h-auto w-full  flex items-center justify-start border-t-2 " onClick={() => document.querySelector('div.hamburger-react').click()}>
               {props.lang === "En" ?
               <a href="#skillsAndExpertise" className="h-fit w-full font-[14px] font-bold leading-tighttext-primary-400  py-3">Skills & Expertise</a>
               :
@@ -115,8 +115,9 @@ export default function Navbar(props) {
               <a href="#contactPage" className="h-fit w-full font-[14px] font-bold leading-tight text-primary-400  py-3">Contact</a>
               }
             </div>
+            </div>
 
-            <div className="h-auto w-full  flex flex-col  pt-24">
+            <div className="h-auto w-full  flex flex-col  pt-24 ">
             <div className="h-auto w-full  flex items-center justify-center" onClick={() => hbLangChangeHandler("En")}>
               <div  className="h-auto w-full text-center p2 py-4">Eng</div>
 

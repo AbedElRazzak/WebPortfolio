@@ -13,6 +13,8 @@ import SkillsAndExpertise from './SkillsAndExpertise';
 import ContactPage from './ContactPage';
 import { useRef } from "react";
 import { useInView } from "framer-motion"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -38,9 +40,38 @@ export default function HomePage() {
     setHbToggled(state)
   }
 
+  function alertHandler(mssg, isSuccess) {
+    if (isSuccess == true) {
+      toast.success(mssg, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      })
+    } else {
+      toast.error(mssg, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
+    }
+
+   }
+
+
   
 
     return (
+      <>
     <div className='h-full w-full' id="homepage">
 
       <div className='bg-primary-400 text-secondary-50 text-[0.875rem] text-center pb-2 '>
@@ -106,7 +137,7 @@ export default function HomePage() {
       </div>
       
       
-      <ContactPage lang={lang}/>
+      <ContactPage lang={lang} alertHandler={alertHandler}/>
       </div>
       
      </div>
@@ -116,6 +147,20 @@ export default function HomePage() {
 
 
     </div>
+    <ToastContainer 
+      position="top-right"
+      autoClose={5000}
+      limit={2}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="light"
+    />
+    </>
     )
 
   }

@@ -24,6 +24,7 @@ export default function Projects(props) {
       "name" : "Path finding visualizer",
       "pic": "bg-path-finding-visualizer-pic",
       "url": "https://abedelrazzak.github.io/path-finding-visualizer/",
+      "github_repo_url": "https://github.com/AbedElRazzak/path-finding-visualizer",
       "description": "html css react javascript",
       "type": "WebApps"
     },
@@ -31,6 +32,7 @@ export default function Projects(props) {
       "name" : "Sorting visualizer",
       "pic": "bg-sorting-visualizer-pic",
       "url": "https://abedelrazzak.github.io/sorting-visualizer/",
+      "github_repo_url": "https://github.com/AbedElRazzak/sorting-visualizer",
       "description": "html css react javascript",
       "type": "WebApps"
     },
@@ -38,6 +40,7 @@ export default function Projects(props) {
       "name" : "Wordvid",
       "pic": "bg-wordvid-pic",
       "url": "https://abedelrazzak.github.io/wordvid/",
+      "github_repo_url": "https://github.com/AbedElRazzak/wordvid",
       "description": "react tailwind python",
       "type": "WebApps"
     },
@@ -45,6 +48,7 @@ export default function Projects(props) {
       "name" : "ElonDrifts",
       "pic": "bg-elondrifts-pic",
       "url": "https://abedelrazzak.github.io/ElonDrifts/",
+      "github_repo_url": "https://github.com/AbedElRazzak/ElonDrifts",
       "description": "React css ThreeJS Blender",
       "type": "WebApps"
     },
@@ -52,13 +56,15 @@ export default function Projects(props) {
       "name" : "Web portfolio",
       "pic": "bg-webportfolio-pic",
       "url": "https://abedelrazzak.github.io/WebPortfolio/",
+      "github_repo_url": "https://github.com/AbedElRazzak/WebPortfolio",
       "description": "React tailwind",
       "type": "WebApps"
     },
     {
       "name" : "Web portfolio design",
       "pic": "bg-webportfolioDesign-pic",
-      "url": "https://abedelrazzak.github.io/WebPortfolio/",
+      "url": "https://www.figma.com/file/aL5W7WEVamggEPiaF8KuJk/Portfolio?type=design&node-id=0-1&t=FXVRApXRigQJihBK-0",
+      "github_repo_url": "https://www.figma.com/file/aL5W7WEVamggEPiaF8KuJk/Portfolio?type=design&node-id=0-1&t=FXVRApXRigQJihBK-0",
       "description": "Figma",
       "type": "Designs"
     },
@@ -66,6 +72,7 @@ export default function Projects(props) {
       "name" : "Computer from scratch",
       "pic": "bg-circuitverse-pic",
       "url": "https://circuitverse.org/users/11477/projects/computer-d97828a4-377c-4c13-a03d-149bdf1a58db",
+      "github_repo_url": "https://circuitverse.org/users/11477/projects/computer-d97828a4-377c-4c13-a03d-149bdf1a58db",
       "description": "circuitverse",
       "type": "Other"
     },
@@ -77,29 +84,52 @@ export default function Projects(props) {
         {projectsData.map((project, index) => {
           if (project.type == type) {
             return (
-                <a key={index} href={project.url} target="_blank"
-                 className=' m-4 lg:m-2 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
-                  <div className='h-auto w-auto p-3 rounded-3xl'>
-                    <div className={`${project.pic} h-64 w-full bg-cover bg-no-repeat rounded-3xl bg-center`}></div>
+                <div key={index}
+                 className=' m-4 lg:m-2 min-h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
+                  <div className='h-auto w-auto p-3 rounded-3xl '>
+                    <div className="h-auto w-auto overflow-hidden rounded-3xl">
+                      <div className={`${project.pic} h-64 w-full bg-cover bg-no-repeat rounded-3xl bg-center`}></div>
+                    </div>
                   </div>
                   <div className='h-full w-full flex flex-col pl-3'>
                     <div className='h5 text-primary-400'>{project.name}</div>
                     <div className='p1 text-primary-200'>{project.description}</div>
+                    <div className="h-auto w-full flex flex-row p-4 pt-12 bg-primasry-300">
+                      <div className="w-full bg-primsary-100 flex justify-center items-center">
+                        <a target="_blank" href={project.github_repo_url} className="text-primary-400 p1 hover:underline">Github repo</a>
+                      </div>
+                      <div className="w-full bg-primary-20s0 flex justify-center items-center ">
+                        <a  target="_blank" href={project.url} className="text-accent-blue-400 h6 font-semibold">Live demo</a>
+                        <img src={"https://assets-global.website-files.com/5f973c970bea5548ad4287ef/62e6ee31eb6f4a4a240f88b8_get-started_arrow.svg"} className="pl-1"></img>
+                      </div>
+                    </div>
                   </div>
-                </a>
+                </div>
                 )
             
           }else if (type == "All") {
             return (
-              <a key={index} href={project.url} target="_blank" className=' m-4 lg:m-2 h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
+              <div key={index}
+               className=' m-4 lg:m-2 min-h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
                 <div className='h-auto w-auto p-3 rounded-3xl'>
-                  <div className={`${project.pic} h-64 w-full bg-cover bg-no-repeat rounded-3xl bg-center`}></div>
+                  <div className="h-auto w-auto overflow-hidden rounded-3xl">
+                    <div className={`${project.pic} h-64 w-full bg-cover bg-no-repeat rounded-3xl bg-center`}></div>
+                  </div>
                 </div>
                 <div className='h-full w-full flex flex-col pl-3'>
                   <div className='h5 text-primary-400'>{project.name}</div>
                   <div className='p1 text-primary-200'>{project.description}</div>
+                  <div className="h-auto w-full flex flex-row p-4 pt-12 bg-primasry-300">
+                      <div className="w-full bg-primsary-100 flex justify-center items-center">
+                        <a target="_blank" href={project.github_repo_url} className="text-primary-400 p1 hover:underline">Github repo</a>
+                      </div>
+                      <div className="w-full bg-primary-20s0 flex justify-center items-center ">
+                        <a  target="_blank" href={project.url} className="text-accent-blue-400 h6 font-semibold">Live demo</a>
+                        <img src={"https://assets-global.website-files.com/5f973c970bea5548ad4287ef/62e6ee31eb6f4a4a240f88b8_get-started_arrow.svg"} className="pl-1"></img>
+                      </div>
+                    </div>
                 </div>
-              </a>
+              </div>
               )
           }
         })}

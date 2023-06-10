@@ -1,9 +1,12 @@
 import React from "react";
 import { useRef } from "react"
 import emailjs from '@emailjs/browser';
-import { config } from "dotenv";
+// import { config } from "dotenv";
+
 
 export default function ContactForm(props) {
+
+
 
     const form = useRef()
 
@@ -13,14 +16,19 @@ export default function ContactForm(props) {
         emailjs.sendForm(import.meta.env.VITE_EMAIL_SERVICE_ID, import.meta.env.VITE_EMAIL_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAIL_PUBLIC_KEY)
           .then((result) => {
               console.log(result.text);
+              props.alertHandler("Message sent - Thank you for reaching out!", true)
+
           }, (error) => {
               console.log(error.text);
+              props.alertHandler("Message not sent - please try again!", false)
+
           })
           e.target.reset()
       }
 
 
     return (
+      <>
         <form ref={form} onSubmit={sendEmail} className='h-full w-full px-6 py-12 sm:py-40 pb-28 space-y-3 max-w-lg'>
             <div className='h3 underline '>Contact</div>
             {props.lang === "En" ?
@@ -47,5 +55,7 @@ export default function ContactForm(props) {
                </div>
           </div>
         </form>
+        
+      </>
     )
 }
