@@ -21,7 +21,7 @@ export default function BlogCard(props) {
             </div>
           </div>
 
-          <div className={`flex justify-center items-center max-w-lg ${props.order2 == 1? "order-2": "order-1"}`}>
+          <div className={`flex justify-center items-center max-w-lg ${props.order2 == 2? "order-2": "order-1"}`}>
           <div className="flex flex-col w-full  bg-accenst-cali-400">
 
           <div className="hidden lg:flex flex-col  justify-center items-center bg-primasry-100 lg:items-start lg:justify-start lg:pl-16">
