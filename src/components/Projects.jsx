@@ -25,7 +25,7 @@ export default function Projects(props) {
       "pic": "bg-path-finding-visualizer-pic",
       "url": "https://abedelrazzak.github.io/path-finding-visualizer/",
       "github_repo_url": "https://github.com/AbedElRazzak/path-finding-visualizer",
-      "description": "html css react javascript",
+      "description": "HTML CSS ReactJS Javascript",
       "type": "WebApps"
     },
     {
@@ -33,7 +33,7 @@ export default function Projects(props) {
       "pic": "bg-sorting-visualizer-pic",
       "url": "https://abedelrazzak.github.io/sorting-visualizer/",
       "github_repo_url": "https://github.com/AbedElRazzak/sorting-visualizer",
-      "description": "html css react javascript",
+      "description": "HTML CSS ReactJS Javascript",
       "type": "WebApps"
     },
     {
@@ -41,7 +41,7 @@ export default function Projects(props) {
       "pic": "bg-wordvid-pic",
       "url": "https://abedelrazzak.github.io/wordvid/",
       "github_repo_url": "https://github.com/AbedElRazzak/wordvid",
-      "description": "react tailwind python",
+      "description": "ReactJS TailwindCSS Python",
       "type": "WebApps"
     },
     {
@@ -49,7 +49,7 @@ export default function Projects(props) {
       "pic": "bg-elondrifts-pic",
       "url": "https://abedelrazzak.github.io/ElonDrifts/",
       "github_repo_url": "https://github.com/AbedElRazzak/ElonDrifts",
-      "description": "React css ThreeJS Blender",
+      "description": "ReactJS CSS ThreeJS Blender",
       "type": "WebApps"
     },
     {
@@ -57,7 +57,7 @@ export default function Projects(props) {
       "pic": "bg-webportfolio-pic",
       "url": "https://abedelrazzak.github.io/WebPortfolio/",
       "github_repo_url": "https://github.com/AbedElRazzak/WebPortfolio",
-      "description": "React tailwind",
+      "description": "ReactJS TailwindCSS",
       "type": "WebApps"
     },
     {
@@ -73,8 +73,16 @@ export default function Projects(props) {
       "pic": "bg-circuitverse-pic",
       "url": "https://circuitverse.org/users/11477/projects/computer-d97828a4-377c-4c13-a03d-149bdf1a58db",
       "github_repo_url": "https://circuitverse.org/users/11477/projects/computer-d97828a4-377c-4c13-a03d-149bdf1a58db",
-      "description": "circuitverse",
+      "description": "Circuitverse",
       "type": "Other"
+    },
+    {
+      "name" : "The Bloom Times",
+      "pic": "bg-the-bloom-times-pic",
+      "url": "https://abedelrazzak.github.io/TheBloomTimes/",
+      "github_repo_url": "https://github.com/AbedElRazzak/TheBloomTimes",
+      "description": "ReactJS TailwindCSS Laravel",
+      "type": "WebApps"
     },
   ]
 

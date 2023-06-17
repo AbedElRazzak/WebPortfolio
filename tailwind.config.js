@@ -114,7 +114,9 @@ export default {
       'elondrifts-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/elondrifts-pic.jpeg')",
       'webportfolio-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/webportfolio-pic.png')",
       'webportfolioDesign-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/webportfolioDesign-pic.png')",
-      'circuitverse-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/circuitverse-pic.png')"
+      'circuitverse-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/circuitverse-pic.png')",
+      'the-bloom-times-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/TheBloomTimes-pic.png')",
+      'blog-logo': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/blog-logo.png')"
     }
     },
   },
