@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
 import BlogCard from "./BlogCard";
-import ContactPage from "./ContactPage";
 import { useInView } from "framer-motion"
 import { useRef } from "react";
 
@@ -127,6 +126,7 @@ export default function BlogPage() {
                 const order1 = windowWidth >= 1024 ? index % 2 == 0 ? 1 : 2 : 1
                 const order2 = windowWidth >= 1024 ? index % 2 == 0 ? 2 : 1 : 1
                 const clr = index % 2 == 0 ? 1 : 2
+                console.log(order1, order2, clr)
 
                 return <BlogCard key={index} title={post.title} description={post.description} link={post.link} imgURL={post.imgURL} order1={order1} order2={order2} clr={clr}/>
               })
