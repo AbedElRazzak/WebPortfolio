@@ -61,32 +61,6 @@ export default function HeroMain(props) {
 
 
       <div className='pt-7'>
-          {/* <div className='h-full w-full p1 text-primary-300 pt-6'>
-            {props.lang === "En" ?
-            <div className='text-center w-full'>I am a full stack web developer & UI/UX </div>
-            :
-            <div className='text-center w-full'>Je suis développeur web full stack et UI/UX </div>
-            }
-            
-
-              <div className='flex flex-row justify-center'>
-                {props.lang === "En" ?
-                <div className='text-center pr-2'>designer, currently working at </div>
-                :
-                <div className='text-center pr-2'>architect, travaillant actuellement à</div>
-                }
-                
-                <div className='text-center p1 text-gradient-100'></div>
-              </div>
-              {props.lang === "En" ?
-              <a href="https://way2godigital.com/" target="/blank" className='text-center font-bold cursor-pointer  text-gradient-50'>Way2GoDigital</a>
-              :
-              <a href="https://way2godigital.com/" target="/blank" className='text-center font-bold cursor-pointer  text-gradient-50'>Way2GoDigital</a>
-              }
-              
-
-          </div> */}
-
           <div className="w-full p1 text-primary-300 flex flex-col justify-center items-center">
           {props.lang === "En" ?
             <div className="text-center max-w-xs">I am a full stack web developer & UI/UX designer, currently working at</div>

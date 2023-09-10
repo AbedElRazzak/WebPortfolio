@@ -88,12 +88,14 @@ export default function Projects(props) {
 
   const Projects = () => {
     return (
-      <div className='flex flex-col h-auto w-auto mt-12 items-center md:flex-col md:flex-wrap lg:flex-row lg:place-content-evenlys  lg:justify-start lg:pl-8' >
+      // <div className='flex flex-col h-auto w-auto mt-12 items-center md:flex-col md:flex-wrap lg:flex-row lg:place-content-evenlys  lg:justify-start lg:pl-8' >
+      <div className="h-auto w-full flex justify-center items-center">
+      <div className=" grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 mt-12  lg:pr-0 ">
         {projectsData.map((project, index) => {
           if (project.type == type) {
             return (
                 <div key={index}
-                 className=' m-4 lg:m-2 min-h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
+                 className=' lg:m-2 min-h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
                   <div className='h-auto w-auto p-3 rounded-3xl '>
                     <div className="h-auto w-auto overflow-hidden rounded-3xl">
                       <div className={`${project.pic} h-64 w-full bg-cover bg-no-repeat rounded-3xl bg-center`}></div>
@@ -118,7 +120,7 @@ export default function Projects(props) {
           }else if (type == "All") {
             return (
               <div key={index}
-               className=' m-4 lg:m-2 min-h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
+               className=' lg:m-2 min-h-96 w-80 sm:w-[22rem] lg:w-96 bg-secondary-50 rounded-3xl border-4 border-border-50 drop-shadow-4xl  flex flex-col'>
                 <div className='h-auto w-auto p-3 rounded-3xl'>
                   <div className="h-auto w-auto overflow-hidden rounded-3xl">
                     <div className={`${project.pic} h-64 w-full bg-cover bg-no-repeat rounded-3xl bg-center`}></div>
@@ -142,6 +144,7 @@ export default function Projects(props) {
           }
         })}
       </div>
+    </div>
     )
   }
 
