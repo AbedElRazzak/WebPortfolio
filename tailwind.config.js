@@ -116,7 +116,9 @@ export default {
       'webportfolioDesign-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/webportfolioDesign-pic.png')",
       'circuitverse-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/circuitverse-pic.png')",
       'the-bloom-times-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/TheBloomTimes-pic.png')",
-      'blog-logo': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/blog-logo.png')"
+      'blog-logo': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/blog-logo.png')",
+      'icce-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/icce.jpeg')",
+      'vressocasa-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/vressocasa.jpeg')"
     }
     },
   },

@@ -161,7 +161,7 @@ export default function Projects(props) {
       <div className='h-auto w-full  flex flex-col sm:flex-row'>
         <div className='h-auto w-full'>
           {props.lang === "En" ?
-          <div className='h3 lg:h2 h-auto w-full text-center md:text-left text-gradient-50 md:inline md:px-4 pr-2'>Projects</div>
+          <div className='h3 lg:h2 h-auto w-full text-center md:text-left text-gradient-50 md:inline md:px-4 pr-2'>Personal Projects</div>
           :
           <div className='h3 lg:h2 h-auto w-full text-center md:text-left text-gradient-50 md:inline md:px-4 pr-2'>Projets</div>
           }

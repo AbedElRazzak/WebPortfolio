@@ -6,6 +6,7 @@ import {
   Route,
   useNavigate
 } from 'react-router-dom';
+import { useEffect } from "react";
 import Navbar from './Navbar.jsx'
 import HeroMain from './HeroMain';
 import Projects from './Projects.jsx';
@@ -15,12 +16,15 @@ import { useRef } from "react";
 import { useInView } from "framer-motion"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ProfessionalProjects from "./ProfessionalProjects.jsx";
 
 
 
 
 
 export default function HomePage() {
+  const [readMoreModalIsOpen, setReadMoreModalIsOpen] = React.useState(false)
+  const [readMoreContent, setReadMoreContent] = React.useState("")
 
   const ref1 = useRef(null);
   const isInView1 = useInView(ref1, { once: true });
@@ -68,7 +72,23 @@ export default function HomePage() {
    }
 
 
-  
+   useEffect(() => {
+    if (readMoreModalIsOpen) {
+      const closeModal = (e) => {
+        if (e.target.classList.contains('modal-overlay')) {
+          setReadMoreModalIsOpen(false)
+        }
+      };
+
+      document.addEventListener('click', closeModal);
+
+      return () => {
+        document.removeEventListener('click', closeModal);
+      };
+    }
+  }, [readMoreModalIsOpen]);
+
+
 
     return (
       <>
@@ -87,6 +107,8 @@ export default function HomePage() {
       <Navbar lang={lang} handleLangChange={handleLangChange} hbIsToggled={hbIsToggled} handleHbToggled={handleHbToggle}/>
 
       <HeroMain lang={lang} />
+
+      <ProfessionalProjects lang={lang} readMoreModalIsOpen={readMoreModalIsOpen} setReadMoreModalIsOpen={setReadMoreModalIsOpen} readMoreContent={readMoreContent} setReadMoreContent={setReadMoreContent}/>
       
       <Projects lang={lang}/>
 
