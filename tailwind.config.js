@@ -118,7 +118,9 @@ export default {
       'the-bloom-times-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/TheBloomTimes-pic.png')",
       'blog-logo': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/blog-logo.png')",
       'icce-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/icce.jpeg')",
-      'vressocasa-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/vressocasa.jpeg')"
+      'vressocasa-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/vressocasa.jpeg')",
+      'premierarc-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/premier-arc.jpeg')",
+      'stoneage-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/stone-age.jpeg')"
     }
     },
   },

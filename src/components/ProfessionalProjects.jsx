@@ -28,12 +28,22 @@ export default function ProfessionalProjects(props) {
       description: "CSS JavaScript Wordpress",
       readmore: "ICCEnergy is an enterprise established in Dubai, UAE by local experts with 15+ years of experience in Construction, Oil and Gas industry. This website is a business website that displays information about the company and their services"
     },
-    // {
-    //   name: "test",
-    //   pic: "",
-    //   url: "",
-    //   description: "",
-    // },
+    {
+      id: 2,
+      name: "Premier ARC",
+      pic: "bg-premierarc-pic",
+      url: "https://premier-arc.com",
+      description: "CSS JavaScript Wordpress",
+      readmore: "Established in California US in 2016, Premier ARC is a leading provider of facade architectural products."
+    },
+    {
+      id: 3,
+      name: "Stone Age",
+      pic: "bg-stoneage-pic",
+      url: "https://stoneage.group",
+      description: "CSS JavaScript Wordpress",
+      readmore: "Stone Age is a company present in Lebanon's marble industry and have thrived in Qatar for more than two decades."
+    },
   ];
 
   const Projects = () => {
@@ -49,7 +59,7 @@ export default function ProfessionalProjects(props) {
                 <div className="h-auto w-auto p-3 rounded-3xl ">
                   <div className="h-auto w-auto overflow-hidden rounded-3xl">
                     <div
-                      className={`${project.pic} h-64 w-full bg-cover bg-no-repeat rounded-3xl bg-left`}
+                      className={`${project.pic} h-64 w-full bg-cover bg-no-repeat rounded-3xl bg-top-left`}
                     ></div>
                   </div>
                 </div>
