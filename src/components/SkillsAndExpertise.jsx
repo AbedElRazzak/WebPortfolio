@@ -66,25 +66,25 @@ export default function SkillsAndExpertise(props) {
                 {props.lang === 'En' ?
                 <div className='p1 border-l border-primary-200 font-medium pl-2 w-fit'>
 
-                Experienced in both Functional and OOP: JavaScript (ES5 and ES6), Python, and C.
+                Experienced in both Functional and OOP: JavaScript (ES5 and ES6), Python, PHP Laravel and C.
                 <br />
                 <br />
-                Experienced in React JS and various libraries e.g. Three JS, react-router and axios.
+                Experienced in React JS and various libraries e.g. Three JS, react-router, axios, and many more.
                 <br />
                 <br />
-                Skilled in server-side frameworks like Flask and Node.js. Familiar with various server and web hosting technologies e.g. Railway and GitHub Pages.
+                Skilled in server-side frameworks like PHP Laravel, Flask and Node.js. Familiar with various server and web hosting technologies and SEO best practices .
                 
                 </div>
                 :
                 <div className='p1 border-l border-primary-200 font-medium pl-2 w-fit'>
 
-                Expérimenté dans les domaines fonctionnel et OOP : JavaScript (ES5 et ES6), Python et C.
+                Expérimenté dans les domaines fonctionnel et OOP : JavaScript (ES5 et ES6), Python, PHP Laravel et C.
                 <br />
                 <br />
-                Expérimenté en React JS et diverses bibliothèques, par exemple Three JS, react-router et axios.
+                Expérimenté en React JS et diverses bibliothèques, par exemple Three JS, react-router, axios et bien d'autres.
                 <br />
                 <br />
-                Compétences en matière de frameworks côté serveur tels que Flask et Node.js. Familiarité avec diverses technologies de serveur et d'hébergement web, par exemple Railway et GitHub Pages.
+                Compétences en matière de frameworks côté serveur tels que PHP Laravel, Flask et Node.js. Familiarité avec diverses technologies de serveur et d'hébergement web et Pratiques recommandées en matière de SEO.
                 
                 </div>
                 }
@@ -133,10 +133,10 @@ export default function SkillsAndExpertise(props) {
                  Experienced in Figma and Blender.
                  <br />
                  <br />
-                 I use figma to go from a user flow diagram all the way to a functional Prototype.
+                 I use figma for UI / UX design, I go from a user flow diagram all the way to a functional Prototype.
                  <br />
                  <br />
-                 I use Blender to make custom 3D shapes.
+                 I use Blender to make custom 3D shapes, visual effects, animations and many more.
 
                  </div>
                  :
@@ -145,11 +145,10 @@ export default function SkillsAndExpertise(props) {
                  Expérimenté en Figma et Blender.
                  <br />
                  <br />
-                 J'utilise Figma pour passer d'un diagramme de flux d'utilisateurs à un prototype fonctionnel.
+                 J'utilise Figma pour la conception UI / UX, je vais d'un diagramme de flux d'utilisateurs jusqu'à un prototype fonctionnel.
                  <br />
                  <br />
-                 J'utilise Blender pour créer des formes 3D personnalisées.
-
+                 J'utilise Blender pour créer des formes 3D personnalisées, des effets visuels, des animations et bien plus encore.
                  </div>
                 }
 
@@ -195,22 +194,20 @@ export default function SkillsAndExpertise(props) {
                  I am a native Arabic speaker and have fluency in English and French, also I have studied German up to B1 level.
                  <br />
                  <br />
+                 Experienced in IT troubleshooting, setup and administration. 
+                 <br />
+                 <br />
                  I am also knowledgeable in computer and circuit architecture.
-                 <br />
-                 <br />
-                 Proficient in using Microsoft Word, Excel, and  PowerPoint.
-
                  </div>
                  :
                  <div className='p1 border-l border-primary-200 font-medium pl-2 w-fit'>
                  Je parle couramment l'anglais et le français, en plus de ma langue maternelle, l'arabe. J'ai également étudié l'allemand jusqu'au niveau B1.
                  <br />
                  <br />
+                 Expérimenté dans le dépannage informatique, la configuration et l'administration.
+                 <br />
+                 <br />
                  Je connais également l'architecture des ordinateurs et des circuits.
-                 <br />
-                 <br />
-                 Maîtrise de Microsoft Word, Excel et PowerPoint.
-
                  </div>
                 }
 

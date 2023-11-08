@@ -14,7 +14,7 @@ export default function ProfessionalProjects(props) {
   const projectsData = [
     {
       id: 0,
-      name: "Vresso Casa",
+      name: "Vresso Casa : Ecommerce",
       pic: "bg-vressocasa-pic",
       url: "https://vressocasa.com/",
       description: "ReactJS TailwindCSS PHP Laravel",
@@ -22,7 +22,7 @@ export default function ProfessionalProjects(props) {
     },
     {
       id: 1,
-      name: "ICCEnergy",
+      name: "ICCEnergy : Business",
       pic: "bg-icce-pic",
       url: "https://icc.energy/",
       description: "CSS JavaScript Wordpress",
@@ -30,7 +30,7 @@ export default function ProfessionalProjects(props) {
     },
     {
       id: 2,
-      name: "Premier ARC",
+      name: "Premier ARC : Business",
       pic: "bg-premierarc-pic",
       url: "https://premier-arc.com",
       description: "CSS JavaScript Wordpress",
@@ -38,7 +38,7 @@ export default function ProfessionalProjects(props) {
     },
     {
       id: 3,
-      name: "Stone Age",
+      name: "Stone Age : Business",
       pic: "bg-stoneage-pic",
       url: "https://stoneage.group",
       description: "CSS JavaScript Wordpress",
@@ -136,7 +136,7 @@ export default function ProfessionalProjects(props) {
               </div>
             ) : (
               <div className="h-auto w-auto text-center md:text-left h6 sm:h5">
-                La meilleure façon d'apprendre
+                Responsabiliser les entreprises grâce à des solutions 
               </div>
             )}
 
@@ -144,7 +144,7 @@ export default function ProfessionalProjects(props) {
               <div className="h-auto w-auto  text-center md:text-left h6 sm:h5"></div>
             ) : (
               <div className="h-auto w-auto  text-center md:text-left h6 sm:h5">
-                est de construire
+                web méticuleusement conçues
               </div>
             )}
           </div>

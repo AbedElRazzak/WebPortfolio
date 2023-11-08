@@ -37,7 +37,7 @@ export default function Projects(props) {
       "type": "WebApps"
     },
     {
-      "name" : "Wordvid",
+      "name" : "YouTube video word finder",
       "pic": "bg-wordvid-pic",
       "url": "https://abedelrazzak.github.io/wordvid/",
       "github_repo_url": "https://github.com/AbedElRazzak/wordvid",
@@ -45,7 +45,7 @@ export default function Projects(props) {
       "type": "WebApps"
     },
     {
-      "name" : "ElonDrifts",
+      "name" : "ElonDrifts car game",
       "pic": "bg-elondrifts-pic",
       "url": "https://abedelrazzak.github.io/ElonDrifts/",
       "github_repo_url": "https://github.com/AbedElRazzak/ElonDrifts",
@@ -77,7 +77,7 @@ export default function Projects(props) {
       "type": "Other"
     },
     {
-      "name" : "The Bloom Times",
+      "name" : "The Bloom Times : Journal",
       "pic": "bg-the-bloom-times-pic",
       "url": "https://abedelrazzak.github.io/TheBloomTimes/",
       "github_repo_url": "https://github.com/AbedElRazzak/TheBloomTimes",
