@@ -32,7 +32,7 @@ export default function ProfessionalProjects(props) {
       id: 2,
       name: "Premier ARC : Business",
       pic: "bg-premierarc-pic",
-      url: "https://premier-arc.com",
+      url: "https://premierarch.way2godigital.com",
       description: "CSS JavaScript Wordpress",
       readmore: "Established in California US in 2016, Premier ARC is a leading provider of facade architectural products."
     },
