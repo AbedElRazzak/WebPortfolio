@@ -63,11 +63,11 @@ export default function HeroMain(props) {
       <div className='pt-7'>
           <div className="w-full p1 text-primary-300 flex flex-col justify-center items-center">
           {props.lang === "En" ?
-            <div className="text-center max-w-xs">I am a full stack web developer & UI/UX designer, currently working at</div>
+            <div className="text-center max-w-xs">I am an experienced full stack web developer & UI/UX designer, with a keen interest in mechatronic systems</div>
             :
             <div className="text-center max-w-xs">Je suis développeur web full stack et UI/UX architect, travaillant actuellement à</div>
           }
-            <a href="https://way2godigital.com/" target="/blank" className='text-center font-bold cursor-pointer  text-gradient-100'>Way2GoDigital</a>
+            {/* <a href="https://way2godigital.com/" target="/blank" className='text-center font-bold cursor-pointer  text-gradient-100'>Way2GoDigital</a> */}
         
           </div>
 

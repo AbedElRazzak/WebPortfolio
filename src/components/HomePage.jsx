@@ -17,6 +17,7 @@ import { useInView } from "framer-motion"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ProfessionalProjects from "./ProfessionalProjects.jsx";
+import WorkTimeLine from "./WorkTimeLine.jsx";
 
 
 
@@ -107,6 +108,8 @@ export default function HomePage() {
       <Navbar lang={lang} handleLangChange={handleLangChange} hbIsToggled={hbIsToggled} handleHbToggled={handleHbToggle}/>
 
       <HeroMain lang={lang} />
+
+      <WorkTimeLine />
 
       <ProfessionalProjects lang={lang} readMoreModalIsOpen={readMoreModalIsOpen} setReadMoreModalIsOpen={setReadMoreModalIsOpen} readMoreContent={readMoreContent} setReadMoreContent={setReadMoreContent}/>
       

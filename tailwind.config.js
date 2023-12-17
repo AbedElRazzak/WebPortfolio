@@ -106,6 +106,8 @@ export default {
       'copyright-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/copyright-icon.png')",
       'linkedin-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/LinkedIn-icon.png')",
       'twitter-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Twitter-icon.png')",
+      'phone-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/phone.png')",
+      'mail-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/mail.png')",
       'instagram-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Instagram-icon.png')",
       'github-icon': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Github-icon.png')",
       'path-finding-visualizer-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/Path-finding-visualizer-pic.jpg')",
