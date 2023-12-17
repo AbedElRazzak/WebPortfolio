@@ -65,7 +65,7 @@ export default function HeroMain(props) {
           {props.lang === "En" ?
             <div className="text-center max-w-xs">I am an experienced full stack web developer & UI/UX designer, with a keen interest in mechatronic systems</div>
             :
-            <div className="text-center max-w-xs">Je suis développeur web full stack et UI/UX architect, travaillant actuellement à</div>
+            <div className="text-center max-w-xs">Je suis un développeur web full stack expérimenté et un designer UI/UX, avec un intérêt marqué pour les systèmes mécatroniques.</div>
           }
             {/* <a href="https://way2godigital.com/" target="/blank" className='text-center font-bold cursor-pointer  text-gradient-100'>Way2GoDigital</a> */}
         
