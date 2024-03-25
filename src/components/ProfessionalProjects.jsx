@@ -37,13 +37,37 @@ export default function ProfessionalProjects(props) {
       readmore: "Established in California US in 2016, Premier ARC is a leading provider of facade architectural products."
     },
     {
-      id: 3,
-      name: "Stone Age : Business",
-      pic: "bg-stoneage-pic",
-      url: "https://stoneage.group",
+      id: 5,
+      name: "Dentrooper360",
+      pic: "bg-dentrooper360-pic",
+      url: "http://dentrooper360.com/",
       description: "CSS JavaScript Wordpress",
-      readmore: "Stone Age is a company present in Lebanon's marble industry and have thrived in Qatar for more than two decades."
+      readmore: "Management Software for Medical & Dental clinics Dentist"
     },
+    {
+      id: 6,
+      name: "Fleurielb",
+      pic: "bg-fleurielb-pic",
+      url: "https://www.fleurielb.com",
+      description: "CSS JavaScript Wordpress",
+      readmore: "Welcome to Fleurie – Where Love, Beauty, and Passion Bloom \n Looking for the perfect floral expression of love, beauty, and passion? You’ve come to the right place. At Fleurie, we specialize in creating stunning arrangements that embody these powerful emotions and leave a lasting impression.\nWe pour our hearts into every arrangement, infusing them with a touch of artistry and a sprinkle of magic. Our commitment to excellence and attention to detail is what sets us apart.\n From romantic gestures to heartfelt celebrations, our collection is designed to make your moments truly unforgettable. These meticulously arranged bouquets and gifts are created with love!"
+    },
+    {
+      id: 7,
+      name: "MUC Academy",
+      pic: "bg-mucacademy-pic",
+      url: "https://academy.muc.edu.lb/",
+      description: "CSS JavaScript Wordpress",
+      readmore: "The Academy at MUC Academy of Continuing Education plays a vital role in ensuring that individuals and professionals in various industries can remain relevant and competent in their fields. It offers a range of courses, programs, and certifications designed to provide ongoing learning opportunities beyond traditional degree programs."
+    },
+    {
+      id: 8,
+      name: "Navigate Success",
+      pic: "bg-navigatesuccess-pic",
+      url: "https://navigate-success.com/",
+      description: "CSS JavaScript Wordpress",
+      readmore: "Elie Lebbos, a transformative business coach consultant, invites you to embark on a blueprint for breakthrough. With a commitment to helping you conquer your most exciting goals, my aim to ignite your potential, empower your leadership, and build a thriving business."
+    }
   ];
 
   const Projects = () => {

@@ -3,6 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: {
+      animation: {
+        'loop-scroll': 'loop-scroll 50s linear infinite',
+      },
+      keyframes: {
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      },
       colors: {
         primary: {
           50: '#E6E6E6',
@@ -79,9 +88,10 @@ export default {
       'xl': '0px 0px 16px #BCCFD9',
       '2xl': '0px 0px 16px #BFD2E1',
       '3xl': '0px 0px 16px #66CFFF',
-      '4xl': '0px 0px 50px #E0B3DA',
+      '4xl': '0px 0px 40px #E0B3DA',
       '5xl': '0px 0px 9px #90C5D5',
-      '6xl': '0px 0px 9px #FFFFFF'
+      '6xl': '0px 0px 9px #FFFFFF',
+      't': '0px 0px 16px #EFE4FF'
 
     },
     backgroundImage: {
@@ -122,7 +132,20 @@ export default {
       'icce-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/icce.jpeg')",
       'vressocasa-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/vressocasa.jpeg')",
       'premierarc-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/premier-arc.jpeg')",
-      'stoneage-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/stone-age.jpeg')"
+      'stoneage-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/stone-age.jpeg')",
+      'fleurielb-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/fleurielb-pic.png')",
+      'mucacademy-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/mucacademy-pic.png')",
+      'navigatesuccess-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/navigatesuccess.png')",
+      'dentrooper360-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/dentrooper360.png')",
+      'pidcontrolleddinogame-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/pidcontrolleddinogame.png')",
+      'hero-pic': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/pic-hero-main.png')",
+      'client-logo-fleurielb': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/client-logo-fleurielb.png')",
+      'client-logo-MUC': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/client-logo-MUC.png')",
+      'client-logo-navigatesuccess': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/client-logo-navigatesuccess.png')",
+      'client-logo-verssocasa': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/client-logo-vressocasa.png')",
+      'client-logo-premierarc': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/client-logo-premierarc.png')",
+      'client-logo-dentrooper360': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/client-logo-dentrooper360.png')",
+      'client-logo-icce': "url('https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/main/uploads/client-logo-icce.png')"
     }
     },
   },

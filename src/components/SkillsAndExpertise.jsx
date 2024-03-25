@@ -69,10 +69,10 @@ export default function SkillsAndExpertise(props) {
                 Experienced in both Functional and OOP: JavaScript (ES5 and ES6), Python, PHP Laravel and C.
                 <br />
                 <br />
-                Experienced in React JS and various libraries e.g. Three JS, react-router, axios, and many more.
+                Experienced in Wordpress, React JS and familiar with various hosting and DNS providers e.g. Bluehost, Plesk, Godaddy, Cloudflare, etc...
                 <br />
                 <br />
-                Skilled in server-side frameworks like PHP Laravel, Flask and Node.js. Familiar with various server and web hosting technologies and SEO best practices .
+                Skilled in server-side frameworks like PHP Laravel, Flask and NodeJS. Familiar with SEO best practices, and Loading time optimization.
                 
                 </div>
                 :
@@ -81,10 +81,10 @@ export default function SkillsAndExpertise(props) {
                 Expérimenté dans les domaines fonctionnel et OOP : JavaScript (ES5 et ES6), Python, PHP Laravel et C.
                 <br />
                 <br />
-                Expérimenté en React JS et diverses bibliothèques, par exemple Three JS, react-router, axios et bien d'autres.
+                Expérimenté en Wordpress, React JS et familier avec divers fournisseurs d'hébergement et de DNS tels que Bluehost, Plesk, Godaddy, Cloudflare, etc...
                 <br />
                 <br />
-                Compétences en matière de frameworks côté serveur tels que PHP Laravel, Flask et Node.js. Familiarité avec diverses technologies de serveur et d'hébergement web et Pratiques recommandées en matière de SEO.
+                Compétent dans les frameworks côté serveur comme PHP Laravel, Flask et NodeJS. Familier avec les meilleures pratiques en matière de référencement (SEO) et l'optimisation du temps de chargement.
                 
                 </div>
                 }

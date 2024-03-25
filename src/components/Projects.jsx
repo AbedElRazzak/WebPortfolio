@@ -84,6 +84,14 @@ export default function Projects(props) {
       "description": "ReactJS TailwindCSS Laravel",
       "type": "WebApps"
     },
+    {
+      "name" : "PID Controlled Dino Game",
+      "pic": "bg-pidcontrolleddinogame-pic",
+      "url": "https://abedelrazzak.github.io/PID-Controlled-Dino-Game/",
+      "github_repo_url": "https://github.com/AbedElRazzak/PID-Controlled-Dino-Game",
+      "description": "NodeJS JS HTML CSS",
+      "type": "WebApps"
+    }
   ]
 
   const Projects = () => {

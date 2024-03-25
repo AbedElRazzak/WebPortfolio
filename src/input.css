@@ -40,7 +40,7 @@
     }
 
     .text-gradient-50 {
-        @apply flex justify-center items-center  bg-gradient-to-r from-accent-purple-400  via-accent-blue-300  to-accent-cali-400 inline-block text-transparent bg-clip-text
+        @apply flex justify-center items-center  bg-gradient-to-r from-accent-purple-400  to-accent-blue-300   inline-block text-transparent bg-clip-text
     }
 
     .text-gradient-100 {
@@ -48,11 +48,15 @@
     }
 
     .bg-gradient-50 {
-        @apply flex justify-center items-center  bg-gradient-to-r from-accent-purple-400 from-10% via-accent-blue-300 to-accent-cali-400
+        @apply flex justify-center items-center  bg-gradient-to-r from-accent-purple-400 from-10% to-accent-blue-300
     }
 
     .bg-gradient-100 {
         @apply   bg-gradient-to-br from-accent-blue-100 from-10% via-accent-blue-300 to-accent-blue-400
+    }
+
+    .bg-gradient-150 {
+        @apply flex justify-center items-center  bg-gradient-to-r from-accent-purple-400 from-10% to-accent-blue-300
     }
 
     html {

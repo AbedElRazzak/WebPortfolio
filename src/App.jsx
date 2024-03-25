@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import '../dist/output.css'
+import './output.css'
 import './input.css'
 import {
   BrowserRouter as Router,
