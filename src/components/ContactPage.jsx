@@ -245,7 +245,7 @@ export default function ContactPage(props) {
               </div>
             </div>
 
-            <div className="w-full h-full flex flex-col justify-start items-start p-2 pl-8 md:pl-0  mb-20 md:mb-0">
+            <div className="w-full h-full flex flex-col justify-start items-start p-2 md:pl-0  mb-20 md:mb-0">
               <p className="h6a font-semibold pb-2  text-white">Address</p>
               <p className="p2 text-primary-100">Koraytem, Beirut, Lebanon.</p>
             </div>

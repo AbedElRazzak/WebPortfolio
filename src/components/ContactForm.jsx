@@ -16,6 +16,7 @@ export default function ContactForm(props) {
 
 
 
+
     const form = useRef()
 
     const sendEmail = (e) => {
@@ -38,7 +39,7 @@ export default function ContactForm(props) {
     return (
       <>
         <form ref={form} onSubmit={sendEmail} className='h-full w-full px-6 py-12 pb-28 space-y-3 max-w-lg'>
-            {/* <div className='h3 underline '>Contact</div> */}
+            {/* <button className='' onClick={()=>{console.log('ENV: ', import.meta.env.VITE_EMAIL_SERVICE_ID, import.meta.env.VITE_EMAIL_TEMPLATE_ID, import.meta.env.VITE_EMAIL_PUBLIC_KEY)}}>test</button> */}
             {lang === "En" ?
             <input name="user_name" type="text" placeholder="Enter your Full Name" className='outline-0 w-full px-[19px] py-[10px] bg-secondary-50 border-[1px] border-[#8DBDD3] rounded-[15px] p1 text-primary-200'></input>
             :

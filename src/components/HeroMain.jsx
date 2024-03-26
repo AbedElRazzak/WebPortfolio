@@ -82,7 +82,7 @@ export default function HeroMain(props) {
         </div>
         <div
           ref={containerRef}
-          className="flex justify-center items-center space-x-4 md:space-x-8 lg:space-x-12 animate-loop-scroll"
+          className="flex justify-center items-center space-x-4 md:space-x-8 lg:space-x-12 animate-loop-scroll-sm md:animate-loop-scroll-lg"
         >
           {clients.map((client, index) => (
             <div
