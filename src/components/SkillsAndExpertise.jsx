@@ -191,7 +191,7 @@ export default function SkillsAndExpertise(props) {
               <div className='pl-6  h-auto w-full'>
                 {props.lang === "En" ?
                  <div className='p1 border-l border-primary-200 font-medium pl-2 w-fit'>
-                 I am a native Arabic speaker and have fluency in English and French, also I have studied German up to B1 level.
+                 I am a native Arabic speaker and have fluency in English and French, also I have studied German up to A2 level.
                  <br />
                  <br />
                  Experienced in IT troubleshooting, setup and administration. 
@@ -201,7 +201,7 @@ export default function SkillsAndExpertise(props) {
                  </div>
                  :
                  <div className='p1 border-l border-primary-200 font-medium pl-2 w-fit'>
-                 Je parle couramment l'anglais et le français, en plus de ma langue maternelle, l'arabe. J'ai également étudié l'allemand jusqu'au niveau B1.
+                 Je parle couramment l'anglais et le français, en plus de ma langue maternelle, l'arabe. J'ai également étudié l'allemand jusqu'au niveau A2.
                  <br />
                  <br />
                  Expérimenté dans le dépannage informatique, la configuration et l'administration.
